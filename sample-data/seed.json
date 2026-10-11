@@ -1,0 +1,4846 @@
+{
+  "version": 1,
+  "creators": [
+    {
+      "id": "cr_maya",
+      "name": "Maya Okafor",
+      "email": "maya@demo.creatorhub.test",
+      "createdAt": "2026-05-13T09:00:00.000Z",
+      "verification": {
+        "status": "verified",
+        "submission": {
+          "fullName": "Maya Okafor",
+          "dateOfBirth": "1991-04-18",
+          "country": "GB",
+          "addressLine": "14 Larkspur Road",
+          "city": "Bristol",
+          "postalCode": "BS6 5AB",
+          "documentType": "passport",
+          "documentFileName": "passport-scan.jpg",
+          "documentSizeBytes": 1480000,
+          "selfieMethod": "simulated",
+          "selfieCompletedAt": "2026-05-15T09:00:00.000Z"
+        },
+        "submittedAt": "2026-05-15T09:00:00.000Z",
+        "reviewedAt": "2026-05-16T09:00:00.000Z",
+        "rejectionReason": null
+      }
+    },
+    {
+      "id": "cr_sam",
+      "name": "Sam Rivera",
+      "email": "sam@demo.creatorhub.test",
+      "createdAt": "2026-10-04T09:00:00.000Z",
+      "verification": {
+        "status": "unverified",
+        "submission": null,
+        "submittedAt": null,
+        "reviewedAt": null,
+        "rejectionReason": null
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": "cnt_01",
+      "creatorId": "cr_maya",
+      "title": "Cinematic Color Grading in DaVinci Resolve",
+      "description": "A complete grading workflow from log footage to a finished look, with node trees you can reuse on every project.",
+      "priceCents": 2499,
+      "thumbnailUrl": "/thumbs/cnt_01",
+      "video": {
+        "uploadId": "upl_seed_01",
+        "fileName": "cinematic-color-grading-in-davinci-resol.mp4",
+        "sizeBytes": 2778726400,
+        "durationSec": 2909
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-05-31T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 1385,
+      "createdAt": "2026-05-28T09:00:00.000Z",
+      "updatedAt": "2026-05-31T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_02",
+      "creatorId": "cr_maya",
+      "title": "Street Photography Masterclass: Tokyo at Night",
+      "description": "Shoot confident night frames with available light. Includes a full walkthrough of three Tokyo neighbourhoods.",
+      "priceCents": 1999,
+      "thumbnailUrl": "/thumbs/cnt_02",
+      "video": {
+        "uploadId": "upl_seed_02",
+        "fileName": "street-photography-masterclass-tokyo-at-.mp4",
+        "sizeBytes": 1908408320,
+        "durationSec": 2193
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-06-14T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 1108,
+      "createdAt": "2026-06-11T09:00:00.000Z",
+      "updatedAt": "2026-06-14T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_03",
+      "creatorId": "cr_maya",
+      "title": "Build a Portfolio Site in a Weekend",
+      "description": "Plan, design and ship a fast portfolio site without a template. Beginner friendly, no paid tools required.",
+      "priceCents": 1499,
+      "thumbnailUrl": "/thumbs/cnt_03",
+      "video": {
+        "uploadId": "upl_seed_03",
+        "fileName": "build-a-portfolio-site-in-a-weekend.mp4",
+        "sizeBytes": 2317352960,
+        "durationSec": 3259
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-07-05T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 1066,
+      "createdAt": "2026-07-02T09:00:00.000Z",
+      "updatedAt": "2026-07-05T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_04",
+      "creatorId": "cr_maya",
+      "title": "Beginner's Guide to Sourdough",
+      "description": "From starter to a crackling crust. Every step filmed overhead so you can follow along in your own kitchen.",
+      "priceCents": 999,
+      "thumbnailUrl": "/thumbs/cnt_04",
+      "video": {
+        "uploadId": "upl_seed_04",
+        "fileName": "beginner-s-guide-to-sourdough.mp4",
+        "sizeBytes": 1300234240,
+        "durationSec": 1624
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-07-16T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 795,
+      "createdAt": "2026-07-13T09:00:00.000Z",
+      "updatedAt": "2026-07-16T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_05",
+      "creatorId": "cr_maya",
+      "title": "Home Studio Acoustics on a Budget",
+      "description": "Treat a bedroom or spare room for recording using inexpensive materials, with before and after measurements.",
+      "priceCents": 1799,
+      "thumbnailUrl": "/thumbs/cnt_05",
+      "video": {
+        "uploadId": "upl_seed_05",
+        "fileName": "home-studio-acoustics-on-a-budget.mp4",
+        "sizeBytes": 1583349760,
+        "durationSec": 2023
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-07-31T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 450,
+      "createdAt": "2026-07-28T09:00:00.000Z",
+      "updatedAt": "2026-07-31T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_06",
+      "creatorId": "cr_maya",
+      "title": "Mobile Filmmaking: Shoot Like a Pro",
+      "description": "Get cinematic results from the phone in your pocket: framing, stabilisation, audio and editing on the go.",
+      "priceCents": 1299,
+      "thumbnailUrl": "/thumbs/cnt_06",
+      "video": {
+        "uploadId": "upl_seed_06",
+        "fileName": "mobile-filmmaking-shoot-like-a-pro.mp4",
+        "sizeBytes": 1457520640,
+        "durationSec": 1903
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-08-16T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 352,
+      "createdAt": "2026-08-13T09:00:00.000Z",
+      "updatedAt": "2026-08-16T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_07",
+      "creatorId": "cr_maya",
+      "title": "Motion Design Foundations in After Effects",
+      "description": "Timing, easing and composition fundamentals that make every animation feel intentional.",
+      "priceCents": 2999,
+      "thumbnailUrl": "/thumbs/cnt_07",
+      "video": {
+        "uploadId": "upl_seed_07",
+        "fileName": "motion-design-foundations-in-after-effec.mp4",
+        "sizeBytes": 3187671040,
+        "durationSec": 3492
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-09-02T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 600,
+      "createdAt": "2026-08-30T09:00:00.000Z",
+      "updatedAt": "2026-09-02T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_08",
+      "creatorId": "cr_maya",
+      "title": "Podcast Production Workflow, Start to Finish",
+      "description": "Record, edit, master and publish a podcast episode in a repeatable weekly workflow.",
+      "priceCents": 1599,
+      "thumbnailUrl": "/thumbs/cnt_08",
+      "video": {
+        "uploadId": "upl_seed_08",
+        "fileName": "podcast-production-workflow-start-to-fin.mp4",
+        "sizeBytes": 1845493760,
+        "durationSec": 2488
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-09-16T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 451,
+      "createdAt": "2026-09-13T09:00:00.000Z",
+      "updatedAt": "2026-09-16T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_09",
+      "creatorId": "cr_maya",
+      "title": "Vlog Storytelling: From Idea to Edit",
+      "description": "Turn everyday footage into a story people finish watching. Includes my full editing checklist.",
+      "priceCents": 1199,
+      "thumbnailUrl": "/thumbs/cnt_09",
+      "video": {
+        "uploadId": "upl_seed_09",
+        "fileName": "vlog-storytelling-from-idea-to-edit.mp4",
+        "sizeBytes": 1373634560,
+        "durationSec": 1753
+      },
+      "status": "published",
+      "scheduledFor": null,
+      "publishedAt": "2026-09-29T09:00:00.000Z",
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 289,
+      "createdAt": "2026-09-26T09:00:00.000Z",
+      "updatedAt": "2026-09-29T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_10",
+      "creatorId": "cr_maya",
+      "title": "Lighting for Small Spaces",
+      "description": "",
+      "priceCents": null,
+      "thumbnailUrl": null,
+      "video": null,
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-06T09:00:00.000Z",
+      "updatedAt": "2026-10-06T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_11",
+      "creatorId": "cr_maya",
+      "title": "Travel Edit Pack: Behind the Scenes",
+      "description": "How I cut a three-minute travel film from a week of footage, shot by shot.",
+      "priceCents": 1399,
+      "thumbnailUrl": "/thumbs/cnt_11",
+      "video": {
+        "uploadId": "upl_seed_11",
+        "fileName": "travel-edit-pack-behind-the-scenes.mp4",
+        "sizeBytes": 1027604480,
+        "durationSec": 1320
+      },
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-04T09:00:00.000Z",
+      "updatedAt": "2026-10-04T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_12",
+      "creatorId": "cr_maya",
+      "title": "Sound Design for Short Films",
+      "description": "Layering ambience, foley and music so a quiet scene still feels alive.",
+      "priceCents": 1699,
+      "thumbnailUrl": "/thumbs/cnt_12",
+      "video": {
+        "uploadId": "upl_seed_12",
+        "fileName": "sound-design-for-short-films.mp4",
+        "sizeBytes": 1688207360,
+        "durationSec": 2128
+      },
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "updatedAt": "2026-10-08T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_13",
+      "creatorId": "cr_maya",
+      "title": "Documentary Interviews: Ask Better Questions",
+      "description": "Interview technique for first-time documentary makers: preparation, follow-ups and handling silence.",
+      "priceCents": 2199,
+      "thumbnailUrl": "/thumbs/cnt_13",
+      "video": {
+        "uploadId": "upl_seed_13",
+        "fileName": "documentary-interviews-ask-better-questi.mp4",
+        "sizeBytes": 2149580800,
+        "durationSec": 2645
+      },
+      "status": "scheduled",
+      "scheduledFor": "2026-10-13T11:00:00.000Z",
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "updatedAt": "2026-10-08T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_14",
+      "creatorId": "cr_maya",
+      "title": "Time-lapse Techniques Workshop",
+      "description": "Plan, shoot and grade time-lapses that look smooth, from sunrise to star trails.",
+      "priceCents": 1399,
+      "thumbnailUrl": "/thumbs/cnt_14",
+      "video": {
+        "uploadId": "upl_seed_14",
+        "fileName": "time-lapse-techniques-workshop.mp4",
+        "sizeBytes": 1237319680,
+        "durationSec": 1595
+      },
+      "status": "scheduled",
+      "scheduledFor": "2026-10-19T11:00:00.000Z",
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "updatedAt": "2026-10-08T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_15",
+      "creatorId": "cr_sam",
+      "title": "My First Tutorial",
+      "description": "",
+      "priceCents": null,
+      "thumbnailUrl": null,
+      "video": null,
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-09T09:00:00.000Z",
+      "updatedAt": "2026-10-09T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_16",
+      "creatorId": "cr_sam",
+      "title": "Pottery for Beginners: Wheel Basics",
+      "description": "Centering clay, pulling walls and trimming a first bowl. No studio required.",
+      "priceCents": 1299,
+      "thumbnailUrl": "/thumbs/cnt_16",
+      "video": {
+        "uploadId": "upl_seed_16",
+        "fileName": "pottery-for-beginners-wheel-basics.mp4",
+        "sizeBytes": 1488977920,
+        "durationSec": 1865
+      },
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-07T09:00:00.000Z",
+      "updatedAt": "2026-10-07T09:00:00.000Z"
+    },
+    {
+      "id": "cnt_17",
+      "creatorId": "cr_sam",
+      "title": "Weekend Hike Vlog: Lake Loop",
+      "description": "A relaxed trail vlog with route notes and what I pack for a day hike.",
+      "priceCents": 799,
+      "thumbnailUrl": "/thumbs/cnt_17",
+      "video": {
+        "uploadId": "upl_seed_17",
+        "fileName": "weekend-hike-vlog-lake-loop.mp4",
+        "sizeBytes": 901775360,
+        "durationSec": 1112
+      },
+      "status": "draft",
+      "scheduledFor": null,
+      "publishedAt": null,
+      "publishIntent": null,
+      "lastPublishError": null,
+      "views": 0,
+      "createdAt": "2026-10-05T09:00:00.000Z",
+      "updatedAt": "2026-10-05T09:00:00.000Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "pur_0422",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "pending",
+      "createdAt": "2026-10-10T08:43:38.790Z"
+    },
+    {
+      "id": "pur_0425",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-10T06:50:28.211Z"
+    },
+    {
+      "id": "pur_0426",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "pending",
+      "createdAt": "2026-10-10T06:14:33.823Z"
+    },
+    {
+      "id": "pur_0424",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-10T05:07:41.253Z"
+    },
+    {
+      "id": "pur_0423",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-10-10T01:04:43.466Z"
+    },
+    {
+      "id": "pur_0421",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-10T00:04:13.406Z"
+    },
+    {
+      "id": "pur_0296",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-09T15:01:32.158Z"
+    },
+    {
+      "id": "pur_0010",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "FR",
+      "status": "refunded",
+      "createdAt": "2026-10-09T10:05:42.852Z"
+    },
+    {
+      "id": "pur_0415",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-10-09T09:08:03.527Z"
+    },
+    {
+      "id": "pur_0409",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-10-09T07:45:48.123Z"
+    },
+    {
+      "id": "pur_0414",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-09T07:27:01.266Z"
+    },
+    {
+      "id": "pur_0139",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-09T05:51:32.332Z"
+    },
+    {
+      "id": "pur_0032",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-10-09T05:39:37.894Z"
+    },
+    {
+      "id": "pur_0316",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-10-09T05:19:43.841Z"
+    },
+    {
+      "id": "pur_0413",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-09T02:41:02.545Z"
+    },
+    {
+      "id": "pur_0188",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-08T17:02:12.416Z"
+    },
+    {
+      "id": "pur_0287",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-08T15:09:44.239Z"
+    },
+    {
+      "id": "pur_0362",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-08T11:01:22.813Z"
+    },
+    {
+      "id": "pur_0272",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-08T09:42:43.467Z"
+    },
+    {
+      "id": "pur_0342",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "MX",
+      "status": "refunded",
+      "createdAt": "2026-10-08T08:57:43.935Z"
+    },
+    {
+      "id": "pur_0279",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-10-08T04:46:42.448Z"
+    },
+    {
+      "id": "pur_0333",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-08T02:22:49.077Z"
+    },
+    {
+      "id": "pur_0406",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-07T23:23:03.177Z"
+    },
+    {
+      "id": "pur_0412",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "GB",
+      "status": "refunded",
+      "createdAt": "2026-10-07T22:31:51.487Z"
+    },
+    {
+      "id": "pur_0093",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-10-07T22:04:48.016Z"
+    },
+    {
+      "id": "pur_0419",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-10-07T18:22:21.833Z"
+    },
+    {
+      "id": "pur_0050",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-10-07T18:05:13.317Z"
+    },
+    {
+      "id": "pur_0016",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-10-07T16:13:15.859Z"
+    },
+    {
+      "id": "pur_0145",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-07T09:16:32.356Z"
+    },
+    {
+      "id": "pur_0417",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "SE",
+      "status": "completed",
+      "createdAt": "2026-10-07T08:11:29.974Z"
+    },
+    {
+      "id": "pur_0347",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-10-07T08:06:52.315Z"
+    },
+    {
+      "id": "pur_0118",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-07T04:33:53.697Z"
+    },
+    {
+      "id": "pur_0179",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-10-07T01:06:04.926Z"
+    },
+    {
+      "id": "pur_0257",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-10-06T21:05:26.258Z"
+    },
+    {
+      "id": "pur_0321",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-10-06T20:55:46.912Z"
+    },
+    {
+      "id": "pur_0352",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-10-06T20:18:26.627Z"
+    },
+    {
+      "id": "pur_0385",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-10-06T17:38:23.253Z"
+    },
+    {
+      "id": "pur_0215",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-10-06T13:27:26.499Z"
+    },
+    {
+      "id": "pur_0408",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-06T12:05:31.768Z"
+    },
+    {
+      "id": "pur_0418",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-06T11:29:50.183Z"
+    },
+    {
+      "id": "pur_0356",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-06T10:37:55.365Z"
+    },
+    {
+      "id": "pur_0404",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-06T05:48:47.794Z"
+    },
+    {
+      "id": "pur_0366",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "SE",
+      "status": "completed",
+      "createdAt": "2026-10-06T03:47:52.844Z"
+    },
+    {
+      "id": "pur_0311",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-06T01:43:06.306Z"
+    },
+    {
+      "id": "pur_0407",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-10-05T21:52:13.526Z"
+    },
+    {
+      "id": "pur_0315",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-10-05T20:07:26.084Z"
+    },
+    {
+      "id": "pur_0289",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-10-05T20:00:21.266Z"
+    },
+    {
+      "id": "pur_0382",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-05T16:31:19.180Z"
+    },
+    {
+      "id": "pur_0369",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-10-05T12:55:20.013Z"
+    },
+    {
+      "id": "pur_0380",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-10-05T09:35:25.001Z"
+    },
+    {
+      "id": "pur_0350",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-10-05T08:36:22.243Z"
+    },
+    {
+      "id": "pur_0416",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-10-05T01:01:01.984Z"
+    },
+    {
+      "id": "pur_0420",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-04T21:34:18.469Z"
+    },
+    {
+      "id": "pur_0323",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-10-04T16:58:58.223Z"
+    },
+    {
+      "id": "pur_0199",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-04T15:35:47.126Z"
+    },
+    {
+      "id": "pur_0354",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-10-04T14:34:21.509Z"
+    },
+    {
+      "id": "pur_0384",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-10-04T11:33:05.270Z"
+    },
+    {
+      "id": "pur_0189",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-04T09:38:32.645Z"
+    },
+    {
+      "id": "pur_0391",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-04T08:07:42.162Z"
+    },
+    {
+      "id": "pur_0373",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-10-03T09:14:16.838Z"
+    },
+    {
+      "id": "pur_0374",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-03T08:25:56.808Z"
+    },
+    {
+      "id": "pur_0206",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-03T06:52:27.515Z"
+    },
+    {
+      "id": "pur_0268",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-10-03T04:22:41.111Z"
+    },
+    {
+      "id": "pur_0410",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-02T23:25:51.525Z"
+    },
+    {
+      "id": "pur_0142",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-10-02T22:06:10.533Z"
+    },
+    {
+      "id": "pur_0383",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-02T22:05:56.802Z"
+    },
+    {
+      "id": "pur_0341",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-10-02T14:24:34.006Z"
+    },
+    {
+      "id": "pur_0282",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-02T09:39:58.878Z"
+    },
+    {
+      "id": "pur_0390",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-10-02T03:53:19.173Z"
+    },
+    {
+      "id": "pur_0332",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "ID",
+      "status": "failed",
+      "createdAt": "2026-10-02T03:12:01.520Z"
+    },
+    {
+      "id": "pur_0269",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "CA",
+      "status": "refunded",
+      "createdAt": "2026-10-02T02:12:35.597Z"
+    },
+    {
+      "id": "pur_0318",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-02T00:38:28.771Z"
+    },
+    {
+      "id": "pur_0403",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "CA",
+      "status": "refunded",
+      "createdAt": "2026-10-01T23:19:51.592Z"
+    },
+    {
+      "id": "pur_0399",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-10-01T20:13:28.839Z"
+    },
+    {
+      "id": "pur_0043",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-10-01T10:57:01.147Z"
+    },
+    {
+      "id": "pur_0396",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-10-01T03:32:30.979Z"
+    },
+    {
+      "id": "pur_0359",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-09-30T21:04:52.776Z"
+    },
+    {
+      "id": "pur_0134",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-30T20:30:47.878Z"
+    },
+    {
+      "id": "pur_0071",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-30T19:07:40.979Z"
+    },
+    {
+      "id": "pur_0405",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "KR",
+      "status": "completed",
+      "createdAt": "2026-09-30T17:22:01.133Z"
+    },
+    {
+      "id": "pur_0398",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-30T14:36:27.941Z"
+    },
+    {
+      "id": "pur_0042",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-30T13:18:51.530Z"
+    },
+    {
+      "id": "pur_0411",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_09",
+      "contentTitle": "Vlog Storytelling: From Idea to Edit",
+      "amountCents": 1199,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-30T11:55:17.953Z"
+    },
+    {
+      "id": "pur_0325",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "AU",
+      "status": "failed",
+      "createdAt": "2026-09-30T11:32:45.316Z"
+    },
+    {
+      "id": "pur_0221",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-30T10:25:57.387Z"
+    },
+    {
+      "id": "pur_0128",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-30T04:31:26.257Z"
+    },
+    {
+      "id": "pur_0361",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "KR",
+      "status": "completed",
+      "createdAt": "2026-09-29T22:26:41.342Z"
+    },
+    {
+      "id": "pur_0008",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-29T16:48:52.686Z"
+    },
+    {
+      "id": "pur_0387",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-29T16:05:59.350Z"
+    },
+    {
+      "id": "pur_0351",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-29T05:28:23.178Z"
+    },
+    {
+      "id": "pur_0021",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-29T03:51:05.753Z"
+    },
+    {
+      "id": "pur_0392",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-29T01:22:50.273Z"
+    },
+    {
+      "id": "pur_0317",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-29T00:47:06.281Z"
+    },
+    {
+      "id": "pur_0018",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-28T18:09:55.268Z"
+    },
+    {
+      "id": "pur_0355",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-28T15:44:35.971Z"
+    },
+    {
+      "id": "pur_0402",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-09-28T13:07:19.266Z"
+    },
+    {
+      "id": "pur_0125",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-28T08:51:03.651Z"
+    },
+    {
+      "id": "pur_0363",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-28T08:50:29.067Z"
+    },
+    {
+      "id": "pur_0335",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-28T08:23:03.792Z"
+    },
+    {
+      "id": "pur_0017",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "failed",
+      "createdAt": "2026-09-27T09:41:45.068Z"
+    },
+    {
+      "id": "pur_0058",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-27T03:54:51.320Z"
+    },
+    {
+      "id": "pur_0376",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-27T01:11:20.539Z"
+    },
+    {
+      "id": "pur_0238",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-26T14:42:56.526Z"
+    },
+    {
+      "id": "pur_0395",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-26T13:42:27.299Z"
+    },
+    {
+      "id": "pur_0285",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-26T11:08:19.401Z"
+    },
+    {
+      "id": "pur_0388",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-26T10:35:06.399Z"
+    },
+    {
+      "id": "pur_0348",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-26T09:17:41.224Z"
+    },
+    {
+      "id": "pur_0158",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-26T05:40:04.763Z"
+    },
+    {
+      "id": "pur_0389",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-25T23:54:50.545Z"
+    },
+    {
+      "id": "pur_0251",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-25T15:05:00.422Z"
+    },
+    {
+      "id": "pur_0284",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-25T11:24:39.433Z"
+    },
+    {
+      "id": "pur_0101",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-24T23:51:44.374Z"
+    },
+    {
+      "id": "pur_0205",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-24T22:05:31.745Z"
+    },
+    {
+      "id": "pur_0314",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-09-24T20:23:41.914Z"
+    },
+    {
+      "id": "pur_0294",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-24T16:19:43.062Z"
+    },
+    {
+      "id": "pur_0176",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-24T03:52:36.810Z"
+    },
+    {
+      "id": "pur_0368",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-23T22:09:09.202Z"
+    },
+    {
+      "id": "pur_0240",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-09-23T12:11:49.593Z"
+    },
+    {
+      "id": "pur_0147",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-09-23T10:30:26.987Z"
+    },
+    {
+      "id": "pur_0301",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-23T10:22:53.742Z"
+    },
+    {
+      "id": "pur_0260",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-09-23T07:35:01.694Z"
+    },
+    {
+      "id": "pur_0059",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-22T21:43:34.208Z"
+    },
+    {
+      "id": "pur_0378",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-09-22T20:35:36.592Z"
+    },
+    {
+      "id": "pur_0310",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-22T17:55:11.090Z"
+    },
+    {
+      "id": "pur_0377",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-22T16:37:24.159Z"
+    },
+    {
+      "id": "pur_0345",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-22T14:58:36.526Z"
+    },
+    {
+      "id": "pur_0024",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-09-22T14:56:35.016Z"
+    },
+    {
+      "id": "pur_0394",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-22T13:46:55.299Z"
+    },
+    {
+      "id": "pur_0400",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-22T12:48:26.437Z"
+    },
+    {
+      "id": "pur_0156",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-22T10:06:02.301Z"
+    },
+    {
+      "id": "pur_0397",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-22T08:20:55.513Z"
+    },
+    {
+      "id": "pur_0276",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-22T00:39:41.160Z"
+    },
+    {
+      "id": "pur_0225",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-21T22:47:19.610Z"
+    },
+    {
+      "id": "pur_0308",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-09-21T22:18:12.996Z"
+    },
+    {
+      "id": "pur_0303",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-21T18:01:49.487Z"
+    },
+    {
+      "id": "pur_0090",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-21T06:33:48.240Z"
+    },
+    {
+      "id": "pur_0375",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-21T05:55:10.483Z"
+    },
+    {
+      "id": "pur_0393",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-21T01:56:53.131Z"
+    },
+    {
+      "id": "pur_0266",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "GB",
+      "status": "failed",
+      "createdAt": "2026-09-20T21:18:47.884Z"
+    },
+    {
+      "id": "pur_0262",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-20T19:43:10.255Z"
+    },
+    {
+      "id": "pur_0343",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-20T12:40:43.269Z"
+    },
+    {
+      "id": "pur_0386",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-20T09:20:34.460Z"
+    },
+    {
+      "id": "pur_0401",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-19T23:48:31.440Z"
+    },
+    {
+      "id": "pur_0372",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-19T22:50:20.830Z"
+    },
+    {
+      "id": "pur_0029",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-19T21:01:49.245Z"
+    },
+    {
+      "id": "pur_0381",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-19T13:35:27.548Z"
+    },
+    {
+      "id": "pur_0185",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-19T07:28:46.313Z"
+    },
+    {
+      "id": "pur_0011",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-19T07:14:59.523Z"
+    },
+    {
+      "id": "pur_0336",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-19T00:14:51.459Z"
+    },
+    {
+      "id": "pur_0379",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_08",
+      "contentTitle": "Podcast Production Workflow, Start to Finish",
+      "amountCents": 1599,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-18T18:08:52.172Z"
+    },
+    {
+      "id": "pur_0036",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-18T13:51:36.556Z"
+    },
+    {
+      "id": "pur_0154",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-09-18T12:31:28.339Z"
+    },
+    {
+      "id": "pur_0098",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-18T00:53:31.597Z"
+    },
+    {
+      "id": "pur_0367",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-17T23:29:25.309Z"
+    },
+    {
+      "id": "pur_0138",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-09-17T21:31:21.118Z"
+    },
+    {
+      "id": "pur_0337",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-17T18:05:34.548Z"
+    },
+    {
+      "id": "pur_0136",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-17T14:51:09.664Z"
+    },
+    {
+      "id": "pur_0141",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-17T12:55:21.919Z"
+    },
+    {
+      "id": "pur_0079",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-09-17T07:23:02.205Z"
+    },
+    {
+      "id": "pur_0307",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-09-17T01:30:27.650Z"
+    },
+    {
+      "id": "pur_0313",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-09-16T23:45:48.787Z"
+    },
+    {
+      "id": "pur_0328",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-16T18:43:46.339Z"
+    },
+    {
+      "id": "pur_0300",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-16T15:49:54.982Z"
+    },
+    {
+      "id": "pur_0255",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-16T09:10:24.382Z"
+    },
+    {
+      "id": "pur_0135",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-16T06:27:55.278Z"
+    },
+    {
+      "id": "pur_0214",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-15T03:29:35.180Z"
+    },
+    {
+      "id": "pur_0298",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-09-14T14:28:21.045Z"
+    },
+    {
+      "id": "pur_0208",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-14T14:17:32.736Z"
+    },
+    {
+      "id": "pur_0230",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-14T04:44:46.254Z"
+    },
+    {
+      "id": "pur_0271",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-13T21:20:53.369Z"
+    },
+    {
+      "id": "pur_0370",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-13T00:23:27.230Z"
+    },
+    {
+      "id": "pur_0224",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-12T19:53:40.579Z"
+    },
+    {
+      "id": "pur_0246",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-12T15:16:56.626Z"
+    },
+    {
+      "id": "pur_0235",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "DE",
+      "status": "failed",
+      "createdAt": "2026-09-12T09:53:13.689Z"
+    },
+    {
+      "id": "pur_0358",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "CA",
+      "status": "refunded",
+      "createdAt": "2026-09-12T02:43:50.499Z"
+    },
+    {
+      "id": "pur_0346",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-11T18:43:29.227Z"
+    },
+    {
+      "id": "pur_0182",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-11T14:33:22.837Z"
+    },
+    {
+      "id": "pur_0081",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-11T12:49:01.779Z"
+    },
+    {
+      "id": "pur_0181",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-09-11T04:42:18.569Z"
+    },
+    {
+      "id": "pur_0166",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-11T01:34:57.914Z"
+    },
+    {
+      "id": "pur_0164",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-10T22:27:23.311Z"
+    },
+    {
+      "id": "pur_0353",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-10T20:09:28.955Z"
+    },
+    {
+      "id": "pur_0349",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-10T09:52:04.079Z"
+    },
+    {
+      "id": "pur_0046",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-09T17:11:31.709Z"
+    },
+    {
+      "id": "pur_0126",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-09-09T01:06:37.306Z"
+    },
+    {
+      "id": "pur_0320",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-08T21:25:08.177Z"
+    },
+    {
+      "id": "pur_0190",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-09-08T17:26:27.349Z"
+    },
+    {
+      "id": "pur_0290",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-08T14:08:54.394Z"
+    },
+    {
+      "id": "pur_0213",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-09-08T08:41:12.147Z"
+    },
+    {
+      "id": "pur_0360",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-09-07T22:59:33.193Z"
+    },
+    {
+      "id": "pur_0202",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-07T21:14:55.971Z"
+    },
+    {
+      "id": "pur_0015",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-07T18:45:38.878Z"
+    },
+    {
+      "id": "pur_0137",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-06T23:13:37.505Z"
+    },
+    {
+      "id": "pur_0030",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-06T21:01:55.607Z"
+    },
+    {
+      "id": "pur_0344",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-06T12:04:29.333Z"
+    },
+    {
+      "id": "pur_0077",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-09-06T08:42:30.790Z"
+    },
+    {
+      "id": "pur_0281",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-06T00:13:50.358Z"
+    },
+    {
+      "id": "pur_0132",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-05T21:47:02.730Z"
+    },
+    {
+      "id": "pur_0357",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-09-05T21:11:18.465Z"
+    },
+    {
+      "id": "pur_0339",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-05T20:33:51.496Z"
+    },
+    {
+      "id": "pur_0264",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-05T20:14:36.109Z"
+    },
+    {
+      "id": "pur_0159",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-09-05T19:35:46.471Z"
+    },
+    {
+      "id": "pur_0364",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "IN",
+      "status": "refunded",
+      "createdAt": "2026-09-05T18:05:29.101Z"
+    },
+    {
+      "id": "pur_0007",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-09-05T15:45:48.120Z"
+    },
+    {
+      "id": "pur_0171",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-09-04T22:47:32.950Z"
+    },
+    {
+      "id": "pur_0194",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-04T21:44:53.554Z"
+    },
+    {
+      "id": "pur_0371",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-04T17:23:07.701Z"
+    },
+    {
+      "id": "pur_0329",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-09-04T09:15:25.168Z"
+    },
+    {
+      "id": "pur_0019",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-04T06:50:37.486Z"
+    },
+    {
+      "id": "pur_0278",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-04T04:58:15.728Z"
+    },
+    {
+      "id": "pur_0175",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ES",
+      "status": "refunded",
+      "createdAt": "2026-09-03T22:05:48.239Z"
+    },
+    {
+      "id": "pur_0292",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-03T21:39:08.255Z"
+    },
+    {
+      "id": "pur_0111",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-03T21:07:35.910Z"
+    },
+    {
+      "id": "pur_0293",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-09-03T17:05:21.119Z"
+    },
+    {
+      "id": "pur_0302",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-09-03T10:38:41.225Z"
+    },
+    {
+      "id": "pur_0365",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_07",
+      "contentTitle": "Motion Design Foundations in After Effects",
+      "amountCents": 2999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-03T09:13:40.984Z"
+    },
+    {
+      "id": "pur_0151",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-09-03T04:11:42.834Z"
+    },
+    {
+      "id": "pur_0178",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-02T23:54:01.644Z"
+    },
+    {
+      "id": "pur_0241",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-09-02T22:30:21.416Z"
+    },
+    {
+      "id": "pur_0065",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-09-02T13:09:04.519Z"
+    },
+    {
+      "id": "pur_0196",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-02T06:28:35.697Z"
+    },
+    {
+      "id": "pur_0340",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-01T23:45:13.536Z"
+    },
+    {
+      "id": "pur_0322",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "AU",
+      "status": "refunded",
+      "createdAt": "2026-09-01T15:58:21.837Z"
+    },
+    {
+      "id": "pur_0063",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-09-01T08:19:24.339Z"
+    },
+    {
+      "id": "pur_0297",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "MX",
+      "status": "refunded",
+      "createdAt": "2026-09-01T08:12:34.819Z"
+    },
+    {
+      "id": "pur_0295",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-09-01T02:10:51.193Z"
+    },
+    {
+      "id": "pur_0306",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-31T21:55:52.698Z"
+    },
+    {
+      "id": "pur_0086",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-08-31T13:35:20.475Z"
+    },
+    {
+      "id": "pur_0053",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-31T12:09:49.633Z"
+    },
+    {
+      "id": "pur_0309",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-08-30T21:09:57.737Z"
+    },
+    {
+      "id": "pur_0327",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-30T12:04:01.475Z"
+    },
+    {
+      "id": "pur_0259",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-30T05:20:05.217Z"
+    },
+    {
+      "id": "pur_0127",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-30T01:12:51.490Z"
+    },
+    {
+      "id": "pur_0039",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-29T20:09:16.330Z"
+    },
+    {
+      "id": "pur_0286",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-08-29T12:29:03.285Z"
+    },
+    {
+      "id": "pur_0265",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-29T08:30:05.418Z"
+    },
+    {
+      "id": "pur_0245",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "FR",
+      "status": "refunded",
+      "createdAt": "2026-08-29T06:46:08.837Z"
+    },
+    {
+      "id": "pur_0095",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-08-29T02:39:34.364Z"
+    },
+    {
+      "id": "pur_0056",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-08-28T17:20:38.446Z"
+    },
+    {
+      "id": "pur_0330",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-28T10:31:41.323Z"
+    },
+    {
+      "id": "pur_0338",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-28T08:36:26.350Z"
+    },
+    {
+      "id": "pur_0222",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-28T05:00:36.075Z"
+    },
+    {
+      "id": "pur_0009",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "ES",
+      "status": "refunded",
+      "createdAt": "2026-08-28T02:49:22.822Z"
+    },
+    {
+      "id": "pur_0275",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-27T23:28:13.051Z"
+    },
+    {
+      "id": "pur_0252",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-27T20:01:13.316Z"
+    },
+    {
+      "id": "pur_0331",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-27T17:29:55.335Z"
+    },
+    {
+      "id": "pur_0012",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-27T16:24:08.700Z"
+    },
+    {
+      "id": "pur_0304",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-27T15:57:46.882Z"
+    },
+    {
+      "id": "pur_0211",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "GB",
+      "status": "failed",
+      "createdAt": "2026-08-26T18:10:17.471Z"
+    },
+    {
+      "id": "pur_0209",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-26T17:12:18.070Z"
+    },
+    {
+      "id": "pur_0258",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-08-26T16:58:46.204Z"
+    },
+    {
+      "id": "pur_0274",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-26T08:05:55.916Z"
+    },
+    {
+      "id": "pur_0324",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "ES",
+      "status": "failed",
+      "createdAt": "2026-08-25T14:57:30.390Z"
+    },
+    {
+      "id": "pur_0277",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-08-25T12:10:32.465Z"
+    },
+    {
+      "id": "pur_0219",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-08-23T18:52:40.962Z"
+    },
+    {
+      "id": "pur_0280",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-08-23T08:34:09.893Z"
+    },
+    {
+      "id": "pur_0203",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-08-23T04:24:17.963Z"
+    },
+    {
+      "id": "pur_0234",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-08-22T20:18:13.952Z"
+    },
+    {
+      "id": "pur_0117",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-22T03:33:26.841Z"
+    },
+    {
+      "id": "pur_0002",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-21T03:39:02.080Z"
+    },
+    {
+      "id": "pur_0312",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-08-20T15:27:31.043Z"
+    },
+    {
+      "id": "pur_0249",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-20T09:16:10.632Z"
+    },
+    {
+      "id": "pur_0256",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-20T06:17:07.886Z"
+    },
+    {
+      "id": "pur_0201",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-08-19T19:54:56.399Z"
+    },
+    {
+      "id": "pur_0102",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-19T18:01:08.173Z"
+    },
+    {
+      "id": "pur_0326",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-19T12:54:23.348Z"
+    },
+    {
+      "id": "pur_0167",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-19T11:36:19.232Z"
+    },
+    {
+      "id": "pur_0168",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ES",
+      "status": "refunded",
+      "createdAt": "2026-08-19T03:44:24.866Z"
+    },
+    {
+      "id": "pur_0163",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-18T13:07:45.237Z"
+    },
+    {
+      "id": "pur_0319",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-18T10:19:09.023Z"
+    },
+    {
+      "id": "pur_0334",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_06",
+      "contentTitle": "Mobile Filmmaking: Shoot Like a Pro",
+      "amountCents": 1299,
+      "country": "DE",
+      "status": "failed",
+      "createdAt": "2026-08-17T19:43:02.414Z"
+    },
+    {
+      "id": "pur_0186",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-08-17T14:35:03.699Z"
+    },
+    {
+      "id": "pur_0146",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-08-16T17:49:06.375Z"
+    },
+    {
+      "id": "pur_0267",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-08-16T13:57:52.698Z"
+    },
+    {
+      "id": "pur_0070",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-16T11:33:57.166Z"
+    },
+    {
+      "id": "pur_0013",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-15T14:08:35.772Z"
+    },
+    {
+      "id": "pur_0078",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-14T18:04:28.102Z"
+    },
+    {
+      "id": "pur_0064",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-14T09:41:30.697Z"
+    },
+    {
+      "id": "pur_0183",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "BR",
+      "status": "refunded",
+      "createdAt": "2026-08-14T06:29:42.569Z"
+    },
+    {
+      "id": "pur_0192",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-13T09:15:23.596Z"
+    },
+    {
+      "id": "pur_0200",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-08-13T04:33:10.502Z"
+    },
+    {
+      "id": "pur_0226",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-13T00:59:44.354Z"
+    },
+    {
+      "id": "pur_0243",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-08-12T19:23:42.485Z"
+    },
+    {
+      "id": "pur_0305",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-12T06:47:12.756Z"
+    },
+    {
+      "id": "pur_0198",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-12T03:11:00.044Z"
+    },
+    {
+      "id": "pur_0133",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-11T15:28:36.434Z"
+    },
+    {
+      "id": "pur_0288",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-11T06:52:14.066Z"
+    },
+    {
+      "id": "pur_0270",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-08-11T02:12:44.484Z"
+    },
+    {
+      "id": "pur_0006",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-08-10T00:23:38.898Z"
+    },
+    {
+      "id": "pur_0162",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-09T23:05:48.738Z"
+    },
+    {
+      "id": "pur_0092",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-09T19:43:40.176Z"
+    },
+    {
+      "id": "pur_0160",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-09T11:00:43.054Z"
+    },
+    {
+      "id": "pur_0195",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "GB",
+      "status": "refunded",
+      "createdAt": "2026-08-09T06:55:56.419Z"
+    },
+    {
+      "id": "pur_0107",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-08-09T04:42:48.117Z"
+    },
+    {
+      "id": "pur_0204",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-08T17:07:29.487Z"
+    },
+    {
+      "id": "pur_0054",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-08T06:38:14.026Z"
+    },
+    {
+      "id": "pur_0273",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-07T22:30:01.631Z"
+    },
+    {
+      "id": "pur_0233",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-07T19:48:23.874Z"
+    },
+    {
+      "id": "pur_0170",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-08-07T13:18:53.515Z"
+    },
+    {
+      "id": "pur_0124",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-07T01:49:41.474Z"
+    },
+    {
+      "id": "pur_0248",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-06T21:25:23.935Z"
+    },
+    {
+      "id": "pur_0218",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-08-06T14:20:53.316Z"
+    },
+    {
+      "id": "pur_0004",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "NL",
+      "status": "failed",
+      "createdAt": "2026-08-06T07:20:34.626Z"
+    },
+    {
+      "id": "pur_0239",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-06T02:19:00.713Z"
+    },
+    {
+      "id": "pur_0150",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-08-06T01:16:48.015Z"
+    },
+    {
+      "id": "pur_0143",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-08-06T01:06:21.980Z"
+    },
+    {
+      "id": "pur_0216",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-08-05T21:26:46.266Z"
+    },
+    {
+      "id": "pur_0299",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "ID",
+      "status": "failed",
+      "createdAt": "2026-08-05T12:35:08.469Z"
+    },
+    {
+      "id": "pur_0110",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-08-05T09:35:17.910Z"
+    },
+    {
+      "id": "pur_0254",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-04T00:19:33.944Z"
+    },
+    {
+      "id": "pur_0227",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-08-03T18:06:44.020Z"
+    },
+    {
+      "id": "pur_0291",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-03T05:59:19.351Z"
+    },
+    {
+      "id": "pur_0001",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-03T01:33:41.967Z"
+    },
+    {
+      "id": "pur_0283",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_05",
+      "contentTitle": "Home Studio Acoustics on a Budget",
+      "amountCents": 1799,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-08-02T21:49:42.832Z"
+    },
+    {
+      "id": "pur_0120",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-08-02T16:45:32.291Z"
+    },
+    {
+      "id": "pur_0076",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-08-02T15:26:00.018Z"
+    },
+    {
+      "id": "pur_0250",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "failed",
+      "createdAt": "2026-08-01T18:15:18.747Z"
+    },
+    {
+      "id": "pur_0027",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-08-01T17:02:59.977Z"
+    },
+    {
+      "id": "pur_0148",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-08-01T14:18:39.288Z"
+    },
+    {
+      "id": "pur_0207",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "NL",
+      "status": "completed",
+      "createdAt": "2026-08-01T06:05:34.756Z"
+    },
+    {
+      "id": "pur_0184",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "refunded",
+      "createdAt": "2026-07-31T23:52:53.922Z"
+    },
+    {
+      "id": "pur_0172",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-31T08:29:40.564Z"
+    },
+    {
+      "id": "pur_0242",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-30T22:44:29.952Z"
+    },
+    {
+      "id": "pur_0097",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-07-30T17:59:13.065Z"
+    },
+    {
+      "id": "pur_0193",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-29T20:07:49.865Z"
+    },
+    {
+      "id": "pur_0115",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-07-29T02:40:42.226Z"
+    },
+    {
+      "id": "pur_0229",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-29T02:06:20.897Z"
+    },
+    {
+      "id": "pur_0253",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-07-28T21:46:39.912Z"
+    },
+    {
+      "id": "pur_0232",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-28T08:14:55.733Z"
+    },
+    {
+      "id": "pur_0261",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-27T22:39:10.946Z"
+    },
+    {
+      "id": "pur_0180",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-27T21:15:32.463Z"
+    },
+    {
+      "id": "pur_0187",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-27T07:45:06.599Z"
+    },
+    {
+      "id": "pur_0057",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-26T17:22:02.617Z"
+    },
+    {
+      "id": "pur_0228",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-07-26T09:24:33.082Z"
+    },
+    {
+      "id": "pur_0244",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-07-26T08:22:56.115Z"
+    },
+    {
+      "id": "pur_0047",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-07-25T10:20:36.760Z"
+    },
+    {
+      "id": "pur_0105",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-07-24T14:47:10.770Z"
+    },
+    {
+      "id": "pur_0247",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-07-24T09:05:56.748Z"
+    },
+    {
+      "id": "pur_0094",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-23T07:20:16.133Z"
+    },
+    {
+      "id": "pur_0033",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "refunded",
+      "createdAt": "2026-07-23T03:59:47.321Z"
+    },
+    {
+      "id": "pur_0099",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "SE",
+      "status": "refunded",
+      "createdAt": "2026-07-23T01:25:49.567Z"
+    },
+    {
+      "id": "pur_0165",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-07-22T20:31:03.929Z"
+    },
+    {
+      "id": "pur_0236",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-22T15:10:31.833Z"
+    },
+    {
+      "id": "pur_0173",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "BR",
+      "status": "failed",
+      "createdAt": "2026-07-21T22:53:45.694Z"
+    },
+    {
+      "id": "pur_0177",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-07-21T13:46:57.938Z"
+    },
+    {
+      "id": "pur_0153",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-21T12:36:35.030Z"
+    },
+    {
+      "id": "pur_0082",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-07-20T23:49:55.282Z"
+    },
+    {
+      "id": "pur_0121",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-07-20T21:19:21.396Z"
+    },
+    {
+      "id": "pur_0191",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-20T16:16:46.718Z"
+    },
+    {
+      "id": "pur_0108",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-07-20T11:08:58.702Z"
+    },
+    {
+      "id": "pur_0237",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-07-20T03:16:38.160Z"
+    },
+    {
+      "id": "pur_0106",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-19T11:46:08.469Z"
+    },
+    {
+      "id": "pur_0223",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-19T01:50:44.452Z"
+    },
+    {
+      "id": "pur_0231",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-07-18T15:40:56.635Z"
+    },
+    {
+      "id": "pur_0130",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-07-18T09:22:03.839Z"
+    },
+    {
+      "id": "pur_0104",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-07-18T08:07:19.448Z"
+    },
+    {
+      "id": "pur_0103",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-18T00:21:28.951Z"
+    },
+    {
+      "id": "pur_0263",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-17T20:53:13.668Z"
+    },
+    {
+      "id": "pur_0212",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-07-17T16:02:33.398Z"
+    },
+    {
+      "id": "pur_0220",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-17T14:38:56.431Z"
+    },
+    {
+      "id": "pur_0217",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_04",
+      "contentTitle": "Beginner's Guide to Sourdough",
+      "amountCents": 999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-17T02:03:43.257Z"
+    },
+    {
+      "id": "pur_0074",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-07-16T02:34:37.409Z"
+    },
+    {
+      "id": "pur_0119",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-07-16T00:31:09.014Z"
+    },
+    {
+      "id": "pur_0210",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-07-15T09:46:21.186Z"
+    },
+    {
+      "id": "pur_0161",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-15T07:01:49.116Z"
+    },
+    {
+      "id": "pur_0067",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-14T16:47:01.138Z"
+    },
+    {
+      "id": "pur_0100",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-14T04:41:53.516Z"
+    },
+    {
+      "id": "pur_0174",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "ZA",
+      "status": "completed",
+      "createdAt": "2026-07-13T06:09:06.835Z"
+    },
+    {
+      "id": "pur_0022",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-12T17:14:25.326Z"
+    },
+    {
+      "id": "pur_0066",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-11T06:50:55.551Z"
+    },
+    {
+      "id": "pur_0088",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-07-10T23:08:01.154Z"
+    },
+    {
+      "id": "pur_0144",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-10T16:13:46.941Z"
+    },
+    {
+      "id": "pur_0051",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "MX",
+      "status": "completed",
+      "createdAt": "2026-07-09T00:56:55.663Z"
+    },
+    {
+      "id": "pur_0073",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-07-08T12:08:06.660Z"
+    },
+    {
+      "id": "pur_0197",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-07T23:11:04.940Z"
+    },
+    {
+      "id": "pur_0169",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_03",
+      "contentTitle": "Build a Portfolio Site in a Weekend",
+      "amountCents": 1499,
+      "country": "AU",
+      "status": "refunded",
+      "createdAt": "2026-07-07T12:39:25.709Z"
+    },
+    {
+      "id": "pur_0061",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "ES",
+      "status": "completed",
+      "createdAt": "2026-07-07T11:55:44.949Z"
+    },
+    {
+      "id": "pur_0114",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-07-07T08:35:50.245Z"
+    },
+    {
+      "id": "pur_0048",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-07-06T17:39:32.526Z"
+    },
+    {
+      "id": "pur_0069",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-06T06:38:29.317Z"
+    },
+    {
+      "id": "pur_0045",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "refunded",
+      "createdAt": "2026-07-05T23:38:33.781Z"
+    },
+    {
+      "id": "pur_0149",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-05T05:12:40.639Z"
+    },
+    {
+      "id": "pur_0041",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-03T08:41:57.890Z"
+    },
+    {
+      "id": "pur_0083",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-07-02T16:37:12.492Z"
+    },
+    {
+      "id": "pur_0116",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-07-02T10:35:21.284Z"
+    },
+    {
+      "id": "pur_0140",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "CA",
+      "status": "failed",
+      "createdAt": "2026-07-01T23:56:52.822Z"
+    },
+    {
+      "id": "pur_0003",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-07-01T19:41:32.110Z"
+    },
+    {
+      "id": "pur_0068",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-30T07:56:39.909Z"
+    },
+    {
+      "id": "pur_0025",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-30T07:29:28.431Z"
+    },
+    {
+      "id": "pur_0112",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "FR",
+      "status": "completed",
+      "createdAt": "2026-06-29T15:07:21.351Z"
+    },
+    {
+      "id": "pur_0122",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-29T14:15:45.102Z"
+    },
+    {
+      "id": "pur_0152",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "GB",
+      "status": "refunded",
+      "createdAt": "2026-06-29T05:22:12.227Z"
+    },
+    {
+      "id": "pur_0040",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-06-29T04:23:18.866Z"
+    },
+    {
+      "id": "pur_0129",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-28T19:03:04.295Z"
+    },
+    {
+      "id": "pur_0049",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-06-28T14:41:54.052Z"
+    },
+    {
+      "id": "pur_0109",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-06-27T13:04:23.854Z"
+    },
+    {
+      "id": "pur_0080",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-06-27T12:40:23.160Z"
+    },
+    {
+      "id": "pur_0091",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-06-27T00:02:26.456Z"
+    },
+    {
+      "id": "pur_0062",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-06-24T03:12:54.473Z"
+    },
+    {
+      "id": "pur_0038",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-06-24T02:09:11.394Z"
+    },
+    {
+      "id": "pur_0031",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-06-23T03:31:01.673Z"
+    },
+    {
+      "id": "pur_0089",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-06-22T05:34:56.601Z"
+    },
+    {
+      "id": "pur_0131",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-21T20:04:07.145Z"
+    },
+    {
+      "id": "pur_0157",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-06-19T21:04:01.596Z"
+    },
+    {
+      "id": "pur_0020",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-18T03:21:05.011Z"
+    },
+    {
+      "id": "pur_0123",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "NG",
+      "status": "completed",
+      "createdAt": "2026-06-17T04:54:38.898Z"
+    },
+    {
+      "id": "pur_0155",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "ID",
+      "status": "completed",
+      "createdAt": "2026-06-17T04:06:38.318Z"
+    },
+    {
+      "id": "pur_0096",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-06-16T18:50:08.629Z"
+    },
+    {
+      "id": "pur_0005",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-06-16T04:27:53.807Z"
+    },
+    {
+      "id": "pur_0085",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-15T11:04:58.253Z"
+    },
+    {
+      "id": "pur_0113",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_02",
+      "contentTitle": "Street Photography Masterclass: Tokyo at Night",
+      "amountCents": 1999,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-06-14T19:33:16.361Z"
+    },
+    {
+      "id": "pur_0055",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "completed",
+      "createdAt": "2026-06-14T02:43:35.076Z"
+    },
+    {
+      "id": "pur_0035",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-06-11T20:33:20.003Z"
+    },
+    {
+      "id": "pur_0044",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-06-10T19:58:37.075Z"
+    },
+    {
+      "id": "pur_0072",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-06-10T03:28:29.758Z"
+    },
+    {
+      "id": "pur_0075",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "SE",
+      "status": "completed",
+      "createdAt": "2026-06-09T20:53:04.835Z"
+    },
+    {
+      "id": "pur_0052",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "refunded",
+      "createdAt": "2026-06-09T01:57:05.964Z"
+    },
+    {
+      "id": "pur_0060",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "JP",
+      "status": "completed",
+      "createdAt": "2026-06-07T05:19:35.302Z"
+    },
+    {
+      "id": "pur_0028",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "CA",
+      "status": "completed",
+      "createdAt": "2026-06-07T02:56:58.549Z"
+    },
+    {
+      "id": "pur_0084",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "DE",
+      "status": "completed",
+      "createdAt": "2026-06-06T20:45:48.814Z"
+    },
+    {
+      "id": "pur_0037",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "IN",
+      "status": "completed",
+      "createdAt": "2026-06-04T21:04:05.196Z"
+    },
+    {
+      "id": "pur_0014",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "GB",
+      "status": "completed",
+      "createdAt": "2026-06-03T09:54:08.749Z"
+    },
+    {
+      "id": "pur_0087",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "BR",
+      "status": "failed",
+      "createdAt": "2026-06-02T23:12:07.910Z"
+    },
+    {
+      "id": "pur_0034",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "US",
+      "status": "completed",
+      "createdAt": "2026-06-02T17:19:35.313Z"
+    },
+    {
+      "id": "pur_0023",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "PH",
+      "status": "completed",
+      "createdAt": "2026-06-02T10:43:43.802Z"
+    },
+    {
+      "id": "pur_0026",
+      "creatorId": "cr_maya",
+      "contentId": "cnt_01",
+      "contentTitle": "Cinematic Color Grading in DaVinci Resolve",
+      "amountCents": 2499,
+      "country": "AU",
+      "status": "completed",
+      "createdAt": "2026-06-01T23:49:54.268Z"
+    }
+  ],
+  "uploads": [
+    {
+      "id": "upl_seed_01",
+      "creatorId": "cr_maya",
+      "fileName": "cinematic-color-grading-in-davinci-resol.mp4",
+      "sizeBytes": 2778726400,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-05-28T09:00:00.000Z",
+      "uploadedAt": "2026-05-28T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_02",
+      "creatorId": "cr_maya",
+      "fileName": "street-photography-masterclass-tokyo-at-.mp4",
+      "sizeBytes": 1908408320,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-06-11T09:00:00.000Z",
+      "uploadedAt": "2026-06-11T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_03",
+      "creatorId": "cr_maya",
+      "fileName": "build-a-portfolio-site-in-a-weekend.mp4",
+      "sizeBytes": 2317352960,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-07-02T09:00:00.000Z",
+      "uploadedAt": "2026-07-02T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_04",
+      "creatorId": "cr_maya",
+      "fileName": "beginner-s-guide-to-sourdough.mp4",
+      "sizeBytes": 1300234240,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-07-13T09:00:00.000Z",
+      "uploadedAt": "2026-07-13T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_05",
+      "creatorId": "cr_maya",
+      "fileName": "home-studio-acoustics-on-a-budget.mp4",
+      "sizeBytes": 1583349760,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-07-28T09:00:00.000Z",
+      "uploadedAt": "2026-07-28T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_06",
+      "creatorId": "cr_maya",
+      "fileName": "mobile-filmmaking-shoot-like-a-pro.mp4",
+      "sizeBytes": 1457520640,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-08-13T09:00:00.000Z",
+      "uploadedAt": "2026-08-13T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_07",
+      "creatorId": "cr_maya",
+      "fileName": "motion-design-foundations-in-after-effec.mp4",
+      "sizeBytes": 3187671040,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-08-30T09:00:00.000Z",
+      "uploadedAt": "2026-08-30T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_08",
+      "creatorId": "cr_maya",
+      "fileName": "podcast-production-workflow-start-to-fin.mp4",
+      "sizeBytes": 1845493760,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-09-13T09:00:00.000Z",
+      "uploadedAt": "2026-09-13T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_09",
+      "creatorId": "cr_maya",
+      "fileName": "vlog-storytelling-from-idea-to-edit.mp4",
+      "sizeBytes": 1373634560,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-09-26T09:00:00.000Z",
+      "uploadedAt": "2026-09-26T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_11",
+      "creatorId": "cr_maya",
+      "fileName": "travel-edit-pack-behind-the-scenes.mp4",
+      "sizeBytes": 1027604480,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-04T09:00:00.000Z",
+      "uploadedAt": "2026-10-04T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_12",
+      "creatorId": "cr_maya",
+      "fileName": "sound-design-for-short-films.mp4",
+      "sizeBytes": 1688207360,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "uploadedAt": "2026-10-08T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_13",
+      "creatorId": "cr_maya",
+      "fileName": "documentary-interviews-ask-better-questi.mp4",
+      "sizeBytes": 2149580800,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "uploadedAt": "2026-10-08T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_14",
+      "creatorId": "cr_maya",
+      "fileName": "time-lapse-techniques-workshop.mp4",
+      "sizeBytes": 1237319680,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "uploadedAt": "2026-10-08T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_16",
+      "creatorId": "cr_sam",
+      "fileName": "pottery-for-beginners-wheel-basics.mp4",
+      "sizeBytes": 1488977920,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-07T09:00:00.000Z",
+      "uploadedAt": "2026-10-07T09:20:00.000Z",
+      "processingFails": false
+    },
+    {
+      "id": "upl_seed_17",
+      "creatorId": "cr_sam",
+      "fileName": "weekend-hike-vlog-lake-loop.mp4",
+      "sizeBytes": 901775360,
+      "contentType": "video/mp4",
+      "status": "uploaded",
+      "createdAt": "2026-10-05T09:00:00.000Z",
+      "uploadedAt": "2026-10-05T09:20:00.000Z",
+      "processingFails": false
+    }
+  ],
+  "sessions": [],
+  "demo": {
+    "latencyMs": 0,
+    "forceApiErrors": false,
+    "failNextUpload": false,
+    "failNextProcessing": false,
+    "jobsLastRunAt": null
+  }
+}

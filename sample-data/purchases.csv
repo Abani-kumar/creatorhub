@@ -1,0 +1,427 @@
+id,creatorId,contentId,contentTitle,amountCents,country,status,createdAt
+pur_0422,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,pending,2026-10-10T08:43:38.790Z
+pur_0425,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-10-10T06:50:28.211Z
+pur_0426,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,pending,2026-10-10T06:14:33.823Z
+pur_0424,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-10-10T05:07:41.253Z
+pur_0423,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,failed,2026-10-10T01:04:43.466Z
+pur_0421,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-10-10T00:04:13.406Z
+pur_0296,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-10-09T15:01:32.158Z
+pur_0010,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,FR,refunded,2026-10-09T10:05:42.852Z
+pur_0415,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,PH,completed,2026-10-09T09:08:03.527Z
+pur_0409,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,DE,completed,2026-10-09T07:45:48.123Z
+pur_0414,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,IN,completed,2026-10-09T07:27:01.266Z
+pur_0139,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,IN,completed,2026-10-09T05:51:32.332Z
+pur_0032,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,CA,completed,2026-10-09T05:39:37.894Z
+pur_0316,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-10-09T05:19:43.841Z
+pur_0413,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-10-09T02:41:02.545Z
+pur_0188,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-10-08T17:02:12.416Z
+pur_0287,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-10-08T15:09:44.239Z
+pur_0362,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-10-08T11:01:22.813Z
+pur_0272,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-10-08T09:42:43.467Z
+pur_0342,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,MX,refunded,2026-10-08T08:57:43.935Z
+pur_0279,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,PH,completed,2026-10-08T04:46:42.448Z
+pur_0333,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-10-08T02:22:49.077Z
+pur_0406,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-10-07T23:23:03.177Z
+pur_0412,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,GB,refunded,2026-10-07T22:31:51.487Z
+pur_0093,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,ES,completed,2026-10-07T22:04:48.016Z
+pur_0419,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,BR,completed,2026-10-07T18:22:21.833Z
+pur_0050,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,NG,completed,2026-10-07T18:05:13.317Z
+pur_0016,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-10-07T16:13:15.859Z
+pur_0145,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,IN,completed,2026-10-07T09:16:32.356Z
+pur_0417,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,SE,completed,2026-10-07T08:11:29.974Z
+pur_0347,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,GB,completed,2026-10-07T08:06:52.315Z
+pur_0118,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,IN,completed,2026-10-07T04:33:53.697Z
+pur_0179,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,FR,completed,2026-10-07T01:06:04.926Z
+pur_0257,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,refunded,2026-10-06T21:05:26.258Z
+pur_0321,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,BR,completed,2026-10-06T20:55:46.912Z
+pur_0352,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,MX,completed,2026-10-06T20:18:26.627Z
+pur_0385,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,CA,completed,2026-10-06T17:38:23.253Z
+pur_0215,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,FR,completed,2026-10-06T13:27:26.499Z
+pur_0408,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,IN,completed,2026-10-06T12:05:31.768Z
+pur_0418,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-10-06T11:29:50.183Z
+pur_0356,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,IN,completed,2026-10-06T10:37:55.365Z
+pur_0404,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-10-06T05:48:47.794Z
+pur_0366,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,SE,completed,2026-10-06T03:47:52.844Z
+pur_0311,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-10-06T01:43:06.306Z
+pur_0407,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,AU,completed,2026-10-05T21:52:13.526Z
+pur_0315,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,GB,completed,2026-10-05T20:07:26.084Z
+pur_0289,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,JP,completed,2026-10-05T20:00:21.266Z
+pur_0382,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,IN,completed,2026-10-05T16:31:19.180Z
+pur_0369,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,JP,completed,2026-10-05T12:55:20.013Z
+pur_0380,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,ZA,completed,2026-10-05T09:35:25.001Z
+pur_0350,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,ES,completed,2026-10-05T08:36:22.243Z
+pur_0416,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,DE,completed,2026-10-05T01:01:01.984Z
+pur_0420,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-10-04T21:34:18.469Z
+pur_0323,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,CA,completed,2026-10-04T16:58:58.223Z
+pur_0199,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-10-04T15:35:47.126Z
+pur_0354,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,NG,completed,2026-10-04T14:34:21.509Z
+pur_0384,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,BR,completed,2026-10-04T11:33:05.270Z
+pur_0189,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-10-04T09:38:32.645Z
+pur_0391,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,US,completed,2026-10-04T08:07:42.162Z
+pur_0373,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,MX,completed,2026-10-03T09:14:16.838Z
+pur_0374,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-10-03T08:25:56.808Z
+pur_0206,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-10-03T06:52:27.515Z
+pur_0268,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,NG,completed,2026-10-03T04:22:41.111Z
+pur_0410,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,IN,completed,2026-10-02T23:25:51.525Z
+pur_0142,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-10-02T22:06:10.533Z
+pur_0383,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,IN,completed,2026-10-02T22:05:56.802Z
+pur_0341,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,ZA,completed,2026-10-02T14:24:34.006Z
+pur_0282,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-10-02T09:39:58.878Z
+pur_0390,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,AU,completed,2026-10-02T03:53:19.173Z
+pur_0332,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,ID,failed,2026-10-02T03:12:01.520Z
+pur_0269,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,CA,refunded,2026-10-02T02:12:35.597Z
+pur_0318,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,IN,completed,2026-10-02T00:38:28.771Z
+pur_0403,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,CA,refunded,2026-10-01T23:19:51.592Z
+pur_0399,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,IN,completed,2026-10-01T20:13:28.839Z
+pur_0043,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-10-01T10:57:01.147Z
+pur_0396,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,FR,completed,2026-10-01T03:32:30.979Z
+pur_0359,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,FR,completed,2026-09-30T21:04:52.776Z
+pur_0134,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-09-30T20:30:47.878Z
+pur_0071,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,JP,completed,2026-09-30T19:07:40.979Z
+pur_0405,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,KR,completed,2026-09-30T17:22:01.133Z
+pur_0398,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,DE,completed,2026-09-30T14:36:27.941Z
+pur_0042,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-09-30T13:18:51.530Z
+pur_0411,cr_maya,cnt_09,Vlog Storytelling: From Idea to Edit,1199,US,completed,2026-09-30T11:55:17.953Z
+pur_0325,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,AU,failed,2026-09-30T11:32:45.316Z
+pur_0221,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,NG,completed,2026-09-30T10:25:57.387Z
+pur_0128,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-30T04:31:26.257Z
+pur_0361,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,KR,completed,2026-09-29T22:26:41.342Z
+pur_0008,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,AU,completed,2026-09-29T16:48:52.686Z
+pur_0387,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,IN,completed,2026-09-29T16:05:59.350Z
+pur_0351,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,AU,completed,2026-09-29T05:28:23.178Z
+pur_0021,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,JP,completed,2026-09-29T03:51:05.753Z
+pur_0392,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,GB,completed,2026-09-29T01:22:50.273Z
+pur_0317,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-09-29T00:47:06.281Z
+pur_0018,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-09-28T18:09:55.268Z
+pur_0355,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,IN,completed,2026-09-28T15:44:35.971Z
+pur_0402,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,NL,completed,2026-09-28T13:07:19.266Z
+pur_0125,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,completed,2026-09-28T08:51:03.651Z
+pur_0363,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,IN,completed,2026-09-28T08:50:29.067Z
+pur_0335,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-09-28T08:23:03.792Z
+pur_0017,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,failed,2026-09-27T09:41:45.068Z
+pur_0058,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-09-27T03:54:51.320Z
+pur_0376,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,NG,completed,2026-09-27T01:11:20.539Z
+pur_0238,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-09-26T14:42:56.526Z
+pur_0395,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,NG,completed,2026-09-26T13:42:27.299Z
+pur_0285,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-26T11:08:19.401Z
+pur_0388,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,DE,completed,2026-09-26T10:35:06.399Z
+pur_0348,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,GB,completed,2026-09-26T09:17:41.224Z
+pur_0158,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,completed,2026-09-26T05:40:04.763Z
+pur_0389,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,BR,completed,2026-09-25T23:54:50.545Z
+pur_0251,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,IN,completed,2026-09-25T15:05:00.422Z
+pur_0284,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,AU,completed,2026-09-25T11:24:39.433Z
+pur_0101,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-24T23:51:44.374Z
+pur_0205,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,JP,completed,2026-09-24T22:05:31.745Z
+pur_0314,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,failed,2026-09-24T20:23:41.914Z
+pur_0294,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-24T16:19:43.062Z
+pur_0176,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-24T03:52:36.810Z
+pur_0368,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,AU,completed,2026-09-23T22:09:09.202Z
+pur_0240,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,failed,2026-09-23T12:11:49.593Z
+pur_0147,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,CA,completed,2026-09-23T10:30:26.987Z
+pur_0301,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,NG,completed,2026-09-23T10:22:53.742Z
+pur_0260,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,ES,completed,2026-09-23T07:35:01.694Z
+pur_0059,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,AU,completed,2026-09-22T21:43:34.208Z
+pur_0378,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,CA,completed,2026-09-22T20:35:36.592Z
+pur_0310,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,AU,completed,2026-09-22T17:55:11.090Z
+pur_0377,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,AU,completed,2026-09-22T16:37:24.159Z
+pur_0345,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,GB,completed,2026-09-22T14:58:36.526Z
+pur_0024,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,FR,completed,2026-09-22T14:56:35.016Z
+pur_0394,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,DE,completed,2026-09-22T13:46:55.299Z
+pur_0400,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,US,completed,2026-09-22T12:48:26.437Z
+pur_0156,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,BR,completed,2026-09-22T10:06:02.301Z
+pur_0397,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,AU,completed,2026-09-22T08:20:55.513Z
+pur_0276,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-09-22T00:39:41.160Z
+pur_0225,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-09-21T22:47:19.610Z
+pur_0308,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,CA,completed,2026-09-21T22:18:12.996Z
+pur_0303,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-21T18:01:49.487Z
+pur_0090,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-09-21T06:33:48.240Z
+pur_0375,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-09-21T05:55:10.483Z
+pur_0393,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,GB,completed,2026-09-21T01:56:53.131Z
+pur_0266,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,GB,failed,2026-09-20T21:18:47.884Z
+pur_0262,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-09-20T19:43:10.255Z
+pur_0343,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,GB,completed,2026-09-20T12:40:43.269Z
+pur_0386,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,US,completed,2026-09-20T09:20:34.460Z
+pur_0401,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,US,completed,2026-09-19T23:48:31.440Z
+pur_0372,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-09-19T22:50:20.830Z
+pur_0029,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-09-19T21:01:49.245Z
+pur_0381,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,GB,completed,2026-09-19T13:35:27.548Z
+pur_0185,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-19T07:28:46.313Z
+pur_0011,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-09-19T07:14:59.523Z
+pur_0336,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,JP,completed,2026-09-19T00:14:51.459Z
+pur_0379,cr_maya,cnt_08,"Podcast Production Workflow, Start to Finish",1599,BR,completed,2026-09-18T18:08:52.172Z
+pur_0036,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-09-18T13:51:36.556Z
+pur_0154,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,FR,completed,2026-09-18T12:31:28.339Z
+pur_0098,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-09-18T00:53:31.597Z
+pur_0367,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,IN,completed,2026-09-17T23:29:25.309Z
+pur_0138,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,MX,completed,2026-09-17T21:31:21.118Z
+pur_0337,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-09-17T18:05:34.548Z
+pur_0136,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-17T14:51:09.664Z
+pur_0141,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,NG,completed,2026-09-17T12:55:21.919Z
+pur_0079,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,refunded,2026-09-17T07:23:02.205Z
+pur_0307,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,FR,completed,2026-09-17T01:30:27.650Z
+pur_0313,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,CA,completed,2026-09-16T23:45:48.787Z
+pur_0328,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,IN,completed,2026-09-16T18:43:46.339Z
+pur_0300,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,DE,completed,2026-09-16T15:49:54.982Z
+pur_0255,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-09-16T09:10:24.382Z
+pur_0135,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-16T06:27:55.278Z
+pur_0214,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-15T03:29:35.180Z
+pur_0298,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,MX,completed,2026-09-14T14:28:21.045Z
+pur_0208,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-14T14:17:32.736Z
+pur_0230,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,AU,completed,2026-09-14T04:44:46.254Z
+pur_0271,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-13T21:20:53.369Z
+pur_0370,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,GB,completed,2026-09-13T00:23:27.230Z
+pur_0224,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,DE,completed,2026-09-12T19:53:40.579Z
+pur_0246,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,DE,completed,2026-09-12T15:16:56.626Z
+pur_0235,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,DE,failed,2026-09-12T09:53:13.689Z
+pur_0358,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,CA,refunded,2026-09-12T02:43:50.499Z
+pur_0346,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-09-11T18:43:29.227Z
+pur_0182,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,DE,completed,2026-09-11T14:33:22.837Z
+pur_0081,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-09-11T12:49:01.779Z
+pur_0181,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,refunded,2026-09-11T04:42:18.569Z
+pur_0166,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-11T01:34:57.914Z
+pur_0164,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,DE,completed,2026-09-10T22:27:23.311Z
+pur_0353,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,completed,2026-09-10T20:09:28.955Z
+pur_0349,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,BR,completed,2026-09-10T09:52:04.079Z
+pur_0046,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-09-09T17:11:31.709Z
+pur_0126,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,MX,completed,2026-09-09T01:06:37.306Z
+pur_0320,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-09-08T21:25:08.177Z
+pur_0190,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ID,completed,2026-09-08T17:26:27.349Z
+pur_0290,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,GB,completed,2026-09-08T14:08:54.394Z
+pur_0213,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ES,completed,2026-09-08T08:41:12.147Z
+pur_0360,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,US,failed,2026-09-07T22:59:33.193Z
+pur_0202,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-09-07T21:14:55.971Z
+pur_0015,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-09-07T18:45:38.878Z
+pur_0137,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-06T23:13:37.505Z
+pur_0030,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-09-06T21:01:55.607Z
+pur_0344,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-09-06T12:04:29.333Z
+pur_0077,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-09-06T08:42:30.790Z
+pur_0281,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-06T00:13:50.358Z
+pur_0132,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-09-05T21:47:02.730Z
+pur_0357,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,ID,completed,2026-09-05T21:11:18.465Z
+pur_0339,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,IN,completed,2026-09-05T20:33:51.496Z
+pur_0264,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,AU,completed,2026-09-05T20:14:36.109Z
+pur_0159,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,AU,completed,2026-09-05T19:35:46.471Z
+pur_0364,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,IN,refunded,2026-09-05T18:05:29.101Z
+pur_0007,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,failed,2026-09-05T15:45:48.120Z
+pur_0171,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,MX,completed,2026-09-04T22:47:32.950Z
+pur_0194,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-09-04T21:44:53.554Z
+pur_0371,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,NG,completed,2026-09-04T17:23:07.701Z
+pur_0329,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,ES,completed,2026-09-04T09:15:25.168Z
+pur_0019,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-09-04T06:50:37.486Z
+pur_0278,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-09-04T04:58:15.728Z
+pur_0175,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ES,refunded,2026-09-03T22:05:48.239Z
+pur_0292,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-03T21:39:08.255Z
+pur_0111,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-09-03T21:07:35.910Z
+pur_0293,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,FR,completed,2026-09-03T17:05:21.119Z
+pur_0302,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-09-03T10:38:41.225Z
+pur_0365,cr_maya,cnt_07,Motion Design Foundations in After Effects,2999,JP,completed,2026-09-03T09:13:40.984Z
+pur_0151,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-09-03T04:11:42.834Z
+pur_0178,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-09-02T23:54:01.644Z
+pur_0241,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,GB,completed,2026-09-02T22:30:21.416Z
+pur_0065,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-09-02T13:09:04.519Z
+pur_0196,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,DE,completed,2026-09-02T06:28:35.697Z
+pur_0340,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-09-01T23:45:13.536Z
+pur_0322,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,AU,refunded,2026-09-01T15:58:21.837Z
+pur_0063,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,NG,completed,2026-09-01T08:19:24.339Z
+pur_0297,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,MX,refunded,2026-09-01T08:12:34.819Z
+pur_0295,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,DE,completed,2026-09-01T02:10:51.193Z
+pur_0306,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-08-31T21:55:52.698Z
+pur_0086,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,FR,completed,2026-08-31T13:35:20.475Z
+pur_0053,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-08-31T12:09:49.633Z
+pur_0309,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,FR,completed,2026-08-30T21:09:57.737Z
+pur_0327,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-08-30T12:04:01.475Z
+pur_0259,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-30T05:20:05.217Z
+pur_0127,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,CA,completed,2026-08-30T01:12:51.490Z
+pur_0039,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-08-29T20:09:16.330Z
+pur_0286,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,ES,completed,2026-08-29T12:29:03.285Z
+pur_0265,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-29T08:30:05.418Z
+pur_0245,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,FR,refunded,2026-08-29T06:46:08.837Z
+pur_0095,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,AU,completed,2026-08-29T02:39:34.364Z
+pur_0056,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-08-28T17:20:38.446Z
+pur_0330,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-08-28T10:31:41.323Z
+pur_0338,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,US,completed,2026-08-28T08:36:26.350Z
+pur_0222,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-28T05:00:36.075Z
+pur_0009,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,ES,refunded,2026-08-28T02:49:22.822Z
+pur_0275,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-27T23:28:13.051Z
+pur_0252,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,DE,completed,2026-08-27T20:01:13.316Z
+pur_0331,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-08-27T17:29:55.335Z
+pur_0012,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-08-27T16:24:08.700Z
+pur_0304,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-27T15:57:46.882Z
+pur_0211,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,GB,failed,2026-08-26T18:10:17.471Z
+pur_0209,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-08-26T17:12:18.070Z
+pur_0258,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,ZA,completed,2026-08-26T16:58:46.204Z
+pur_0274,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-26T08:05:55.916Z
+pur_0324,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,ES,failed,2026-08-25T14:57:30.390Z
+pur_0277,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,JP,completed,2026-08-25T12:10:32.465Z
+pur_0219,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,NG,completed,2026-08-23T18:52:40.962Z
+pur_0280,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,NL,completed,2026-08-23T08:34:09.893Z
+pur_0203,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,AU,completed,2026-08-23T04:24:17.963Z
+pur_0234,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,AU,completed,2026-08-22T20:18:13.952Z
+pur_0117,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-08-22T03:33:26.841Z
+pur_0002,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,CA,completed,2026-08-21T03:39:02.080Z
+pur_0312,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,GB,completed,2026-08-20T15:27:31.043Z
+pur_0249,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-20T09:16:10.632Z
+pur_0256,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-20T06:17:07.886Z
+pur_0201,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ES,completed,2026-08-19T19:54:56.399Z
+pur_0102,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,CA,completed,2026-08-19T18:01:08.173Z
+pur_0326,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,IN,completed,2026-08-19T12:54:23.348Z
+pur_0167,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,DE,completed,2026-08-19T11:36:19.232Z
+pur_0168,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ES,refunded,2026-08-19T03:44:24.866Z
+pur_0163,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-08-18T13:07:45.237Z
+pur_0319,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,completed,2026-08-18T10:19:09.023Z
+pur_0334,cr_maya,cnt_06,Mobile Filmmaking: Shoot Like a Pro,1299,DE,failed,2026-08-17T19:43:02.414Z
+pur_0186,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,PH,completed,2026-08-17T14:35:03.699Z
+pur_0146,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,NG,completed,2026-08-16T17:49:06.375Z
+pur_0267,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,NL,completed,2026-08-16T13:57:52.698Z
+pur_0070,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-08-16T11:33:57.166Z
+pur_0013,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,CA,completed,2026-08-15T14:08:35.772Z
+pur_0078,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,DE,completed,2026-08-14T18:04:28.102Z
+pur_0064,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-08-14T09:41:30.697Z
+pur_0183,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,BR,refunded,2026-08-14T06:29:42.569Z
+pur_0192,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-08-13T09:15:23.596Z
+pur_0200,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,GB,completed,2026-08-13T04:33:10.502Z
+pur_0226,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,IN,completed,2026-08-13T00:59:44.354Z
+pur_0243,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,refunded,2026-08-12T19:23:42.485Z
+pur_0305,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-08-12T06:47:12.756Z
+pur_0198,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-08-12T03:11:00.044Z
+pur_0133,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-08-11T15:28:36.434Z
+pur_0288,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-11T06:52:14.066Z
+pur_0270,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,AU,completed,2026-08-11T02:12:44.484Z
+pur_0006,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,NL,completed,2026-08-10T00:23:38.898Z
+pur_0162,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,CA,completed,2026-08-09T23:05:48.738Z
+pur_0092,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,IN,completed,2026-08-09T19:43:40.176Z
+pur_0160,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-08-09T11:00:43.054Z
+pur_0195,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,GB,refunded,2026-08-09T06:55:56.419Z
+pur_0107,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,NL,completed,2026-08-09T04:42:48.117Z
+pur_0204,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,CA,completed,2026-08-08T17:07:29.487Z
+pur_0054,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-08-08T06:38:14.026Z
+pur_0273,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-07T22:30:01.631Z
+pur_0233,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-07T19:48:23.874Z
+pur_0170,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,NG,completed,2026-08-07T13:18:53.515Z
+pur_0124,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-08-07T01:49:41.474Z
+pur_0248,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-06T21:25:23.935Z
+pur_0218,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,CA,completed,2026-08-06T14:20:53.316Z
+pur_0004,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,NL,failed,2026-08-06T07:20:34.626Z
+pur_0239,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-08-06T02:19:00.713Z
+pur_0150,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,FR,completed,2026-08-06T01:16:48.015Z
+pur_0143,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,completed,2026-08-06T01:06:21.980Z
+pur_0216,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,ES,completed,2026-08-05T21:26:46.266Z
+pur_0299,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,ID,failed,2026-08-05T12:35:08.469Z
+pur_0110,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,AU,completed,2026-08-05T09:35:17.910Z
+pur_0254,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,IN,completed,2026-08-04T00:19:33.944Z
+pur_0227,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,DE,completed,2026-08-03T18:06:44.020Z
+pur_0291,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,US,completed,2026-08-03T05:59:19.351Z
+pur_0001,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-08-03T01:33:41.967Z
+pur_0283,cr_maya,cnt_05,Home Studio Acoustics on a Budget,1799,IN,completed,2026-08-02T21:49:42.832Z
+pur_0120,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-08-02T16:45:32.291Z
+pur_0076,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,refunded,2026-08-02T15:26:00.018Z
+pur_0250,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,failed,2026-08-01T18:15:18.747Z
+pur_0027,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,ID,completed,2026-08-01T17:02:59.977Z
+pur_0148,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,refunded,2026-08-01T14:18:39.288Z
+pur_0207,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,NL,completed,2026-08-01T06:05:34.756Z
+pur_0184,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,refunded,2026-07-31T23:52:53.922Z
+pur_0172,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-07-31T08:29:40.564Z
+pur_0242,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,IN,completed,2026-07-30T22:44:29.952Z
+pur_0097,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,ES,completed,2026-07-30T17:59:13.065Z
+pur_0193,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-07-29T20:07:49.865Z
+pur_0115,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,AU,completed,2026-07-29T02:40:42.226Z
+pur_0229,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-07-29T02:06:20.897Z
+pur_0253,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,ID,completed,2026-07-28T21:46:39.912Z
+pur_0232,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-07-28T08:14:55.733Z
+pur_0261,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-07-27T22:39:10.946Z
+pur_0180,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-07-27T21:15:32.463Z
+pur_0187,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-07-27T07:45:06.599Z
+pur_0057,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-26T17:22:02.617Z
+pur_0228,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,JP,completed,2026-07-26T09:24:33.082Z
+pur_0244,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,MX,completed,2026-07-26T08:22:56.115Z
+pur_0047,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-07-25T10:20:36.760Z
+pur_0105,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-07-24T14:47:10.770Z
+pur_0247,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,JP,completed,2026-07-24T09:05:56.748Z
+pur_0094,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,completed,2026-07-23T07:20:16.133Z
+pur_0033,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,refunded,2026-07-23T03:59:47.321Z
+pur_0099,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,SE,refunded,2026-07-23T01:25:49.567Z
+pur_0165,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,JP,completed,2026-07-22T20:31:03.929Z
+pur_0236,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,GB,completed,2026-07-22T15:10:31.833Z
+pur_0173,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,BR,failed,2026-07-21T22:53:45.694Z
+pur_0177,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ZA,completed,2026-07-21T13:46:57.938Z
+pur_0153,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,completed,2026-07-21T12:36:35.030Z
+pur_0082,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,NG,completed,2026-07-20T23:49:55.282Z
+pur_0121,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-07-20T21:19:21.396Z
+pur_0191,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-07-20T16:16:46.718Z
+pur_0108,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,BR,completed,2026-07-20T11:08:58.702Z
+pur_0237,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,NG,completed,2026-07-20T03:16:38.160Z
+pur_0106,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-07-19T11:46:08.469Z
+pur_0223,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,US,completed,2026-07-19T01:50:44.452Z
+pur_0231,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,ZA,completed,2026-07-18T15:40:56.635Z
+pur_0130,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-07-18T09:22:03.839Z
+pur_0104,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-07-18T08:07:19.448Z
+pur_0103,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-07-18T00:21:28.951Z
+pur_0263,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,GB,completed,2026-07-17T20:53:13.668Z
+pur_0212,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ZA,completed,2026-07-17T16:02:33.398Z
+pur_0220,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,GB,completed,2026-07-17T14:38:56.431Z
+pur_0217,cr_maya,cnt_04,Beginner's Guide to Sourdough,999,IN,completed,2026-07-17T02:03:43.257Z
+pur_0074,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,FR,completed,2026-07-16T02:34:37.409Z
+pur_0119,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,MX,completed,2026-07-16T00:31:09.014Z
+pur_0210,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,GB,completed,2026-07-15T09:46:21.186Z
+pur_0161,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,IN,completed,2026-07-15T07:01:49.116Z
+pur_0067,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-14T16:47:01.138Z
+pur_0100,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-07-14T04:41:53.516Z
+pur_0174,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,ZA,completed,2026-07-13T06:09:06.835Z
+pur_0022,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-07-12T17:14:25.326Z
+pur_0066,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-11T06:50:55.551Z
+pur_0088,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-07-10T23:08:01.154Z
+pur_0144,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-07-10T16:13:46.941Z
+pur_0051,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,MX,completed,2026-07-09T00:56:55.663Z
+pur_0073,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-07-08T12:08:06.660Z
+pur_0197,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,US,completed,2026-07-07T23:11:04.940Z
+pur_0169,cr_maya,cnt_03,Build a Portfolio Site in a Weekend,1499,AU,refunded,2026-07-07T12:39:25.709Z
+pur_0061,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,ES,completed,2026-07-07T11:55:44.949Z
+pur_0114,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,FR,completed,2026-07-07T08:35:50.245Z
+pur_0048,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,FR,completed,2026-07-06T17:39:32.526Z
+pur_0069,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-06T06:38:29.317Z
+pur_0045,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,refunded,2026-07-05T23:38:33.781Z
+pur_0149,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-07-05T05:12:40.639Z
+pur_0041,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-03T08:41:57.890Z
+pur_0083,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-07-02T16:37:12.492Z
+pur_0116,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,ID,completed,2026-07-02T10:35:21.284Z
+pur_0140,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,CA,failed,2026-07-01T23:56:52.822Z
+pur_0003,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,PH,completed,2026-07-01T19:41:32.110Z
+pur_0068,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-06-30T07:56:39.909Z
+pur_0025,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-06-30T07:29:28.431Z
+pur_0112,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,FR,completed,2026-06-29T15:07:21.351Z
+pur_0122,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-06-29T14:15:45.102Z
+pur_0152,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,GB,refunded,2026-06-29T05:22:12.227Z
+pur_0040,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,PH,completed,2026-06-29T04:23:18.866Z
+pur_0129,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-06-28T19:03:04.295Z
+pur_0049,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-06-28T14:41:54.052Z
+pur_0109,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,DE,completed,2026-06-27T13:04:23.854Z
+pur_0080,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,AU,completed,2026-06-27T12:40:23.160Z
+pur_0091,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,BR,completed,2026-06-27T00:02:26.456Z
+pur_0062,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,ID,completed,2026-06-24T03:12:54.473Z
+pur_0038,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-06-24T02:09:11.394Z
+pur_0031,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,JP,completed,2026-06-23T03:31:01.673Z
+pur_0089,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-06-22T05:34:56.601Z
+pur_0131,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,US,completed,2026-06-21T20:04:07.145Z
+pur_0157,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,IN,completed,2026-06-19T21:04:01.596Z
+pur_0020,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-06-18T03:21:05.011Z
+pur_0123,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,NG,completed,2026-06-17T04:54:38.898Z
+pur_0155,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,ID,completed,2026-06-17T04:06:38.318Z
+pur_0096,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,JP,completed,2026-06-16T18:50:08.629Z
+pur_0005,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-06-16T04:27:53.807Z
+pur_0085,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-06-15T11:04:58.253Z
+pur_0113,cr_maya,cnt_02,Street Photography Masterclass: Tokyo at Night,1999,AU,completed,2026-06-14T19:33:16.361Z
+pur_0055,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,completed,2026-06-14T02:43:35.076Z
+pur_0035,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,PH,completed,2026-06-11T20:33:20.003Z
+pur_0044,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-06-10T19:58:37.075Z
+pur_0072,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-06-10T03:28:29.758Z
+pur_0075,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,SE,completed,2026-06-09T20:53:04.835Z
+pur_0052,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,refunded,2026-06-09T01:57:05.964Z
+pur_0060,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,JP,completed,2026-06-07T05:19:35.302Z
+pur_0028,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,CA,completed,2026-06-07T02:56:58.549Z
+pur_0084,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,DE,completed,2026-06-06T20:45:48.814Z
+pur_0037,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,IN,completed,2026-06-04T21:04:05.196Z
+pur_0014,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,GB,completed,2026-06-03T09:54:08.749Z
+pur_0087,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,BR,failed,2026-06-02T23:12:07.910Z
+pur_0034,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,US,completed,2026-06-02T17:19:35.313Z
+pur_0023,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,PH,completed,2026-06-02T10:43:43.802Z
+pur_0026,cr_maya,cnt_01,Cinematic Color Grading in DaVinci Resolve,2499,AU,completed,2026-06-01T23:49:54.268Z

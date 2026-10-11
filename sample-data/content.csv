@@ -1,0 +1,18 @@
+id,creator,title,status,price_cents,views,completed_purchases,revenue_cents
+cnt_01,cr_maya,Cinematic Color Grading in DaVinci Resolve,published,2499,1385,77,192423
+cnt_02,cr_maya,Street Photography Masterclass: Tokyo at Night,published,1999,1108,66,131934
+cnt_03,cr_maya,Build a Portfolio Site in a Weekend,published,1499,1066,48,71952
+cnt_04,cr_maya,Beginner's Guide to Sourdough,published,999,795,43,42957
+cnt_05,cr_maya,Home Studio Acoustics on a Budget,published,1799,450,40,71960
+cnt_06,cr_maya,Mobile Filmmaking: Shoot Like a Pro,published,1299,352,31,40269
+cnt_07,cr_maya,Motion Design Foundations in After Effects,published,2999,600,31,92969
+cnt_08,cr_maya,"Podcast Production Workflow, Start to Finish",published,1599,451,25,39975
+cnt_09,cr_maya,Vlog Storytelling: From Idea to Edit,published,1199,289,16,19184
+cnt_10,cr_maya,Lighting for Small Spaces,draft,,0,0,0
+cnt_11,cr_maya,Travel Edit Pack: Behind the Scenes,draft,1399,0,0,0
+cnt_12,cr_maya,Sound Design for Short Films,draft,1699,0,0,0
+cnt_13,cr_maya,Documentary Interviews: Ask Better Questions,scheduled,2199,0,0,0
+cnt_14,cr_maya,Time-lapse Techniques Workshop,scheduled,1399,0,0,0
+cnt_15,cr_sam,My First Tutorial,draft,,0,0,0
+cnt_16,cr_sam,Pottery for Beginners: Wheel Basics,draft,1299,0,0,0
+cnt_17,cr_sam,Weekend Hike Vlog: Lake Loop,draft,799,0,0,0

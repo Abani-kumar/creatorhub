@@ -194,7 +194,7 @@ All paths use it: `POST /api/content/:id/publish`, scheduler, publish-after-appr
 npm test
 ```
 
-**126 tests** in **10 files**. In-memory store, frozen clock. Publishing gate (all paths), isolation (404 for others’ IDs), demo fail-closed, verification, GET purity (file bytes), atomic writes, upload reducer, thumbnails/save-before-publish, publish intent.
+**127 tests** in **10 files**. In-memory store, frozen clock. Publishing gate (all paths), isolation (404 for others’ IDs), demo fail-closed, verification, GET purity (file bytes), atomic writes, upload reducer, thumbnails/save-before-publish, publish intent.
 
 ### Browser (Playwright)
 

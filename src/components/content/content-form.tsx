@@ -6,7 +6,8 @@ import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useId, useMemo, useState, type ReactNode } from 'react';
 import { ApiClientError, api } from '@/lib/api-client';
 import { formatDateTime } from '@/lib/format';
-import { refreshAll, useMe, useUploadState } from '@/lib/hooks';
+import { rememberAndRefresh, refreshAll, useMe, useUploadState } from '@/lib/hooks';
+import { rememberContent } from '@/lib/local-content-cache';
 import { FRAME_PRESETS, thumbPath } from '@/lib/thumbnail-ref';
 import { contentInputSchema, validateScheduleTime, type ContentInput } from '@/lib/schemas';
 import { MIN_SCHEDULE_LEAD_MS } from '@/lib/constants';
@@ -181,6 +182,7 @@ export function ContentForm({ item }: { item?: ContentView }) {
       : await api.post<ContentView>('/api/content', payload);
     if (!id) setContentId(saved.id);
     if (saved.thumbnailUrl) setThumbnailUrl(saved.thumbnailUrl);
+    rememberContent(saved);
     return saved;
   }
 
@@ -220,7 +222,7 @@ export function ContentForm({ item }: { item?: ContentView }) {
       if (isLive) {
         const payload = buildPayload('publish', false);
         const saved = await api.patch<ContentView>(`/api/content/${effectiveId!}`, payload);
-        await refreshAll();
+        await rememberAndRefresh(saved);
         toast.success('Changes saved.');
         if (opts.navigate !== false) router.push(`/content/${saved.id}`);
         return 'saved';
@@ -229,7 +231,7 @@ export function ContentForm({ item }: { item?: ContentView }) {
       if (m === 'draft') {
         const draft = await persistDraftRecord();
         if (draft === 'invalid') return 'invalid';
-        await refreshAll();
+        await rememberAndRefresh(draft);
         toast.success('Draft saved.');
         if (opts.navigate !== false) router.push(`/content/${draft.id}`);
         return 'saved';
@@ -244,7 +246,7 @@ export function ContentForm({ item }: { item?: ContentView }) {
 
       try {
         const published = await api.post<ContentView>(`/api/content/${draft.id}/publish`, Object.keys(publishBody).length ? publishBody : undefined);
-        await refreshAll();
+        await rememberAndRefresh(published);
         if (published.status === 'published') toast.success('Published.');
         else if (published.status === 'scheduled' && published.scheduledFor) toast.success(`Scheduled for ${formatDateTime(published.scheduledFor)}.`);
         else if (published.publishIntent) toast.success("Saved. We'll publish it automatically once it's ready.");
@@ -253,7 +255,7 @@ export function ContentForm({ item }: { item?: ContentView }) {
         return 'saved';
       } catch (e) {
         if (e instanceof ApiClientError) {
-          await refreshAll();
+          await rememberAndRefresh(draft);
           return handlePublishBlock(e, m);
         }
         throw e;

@@ -9,7 +9,8 @@ import { ApiClientError } from '@/lib/api-client';
 import { useContent } from '@/lib/hooks';
 
 export default function EditContentPage() {
-  const { id } = useParams<{ id: string }>();
+  const params = useParams<{ id: string | string[] }>();
+  const id = Array.isArray(params.id) ? params.id[0] : params.id;
   const { data, error, isLoading, isValidating, mutate } = useContent(id);
 
   if (error && !data) {
@@ -17,7 +18,7 @@ export default function EditContentPage() {
     return (
       <div className="rounded-card bg-surface shadow-card ring-1 ring-line">
         {notFound ? (
-          <EmptyState icon={<Film className="size-5" aria-hidden />} title="Content not found" body="It may have been deleted, or the link is wrong." action={<LinkButton href="/dashboard">Back to dashboard</LinkButton>} />
+          <EmptyState icon={<Film className="size-5" aria-hidden />} title="Content not found" body="It may have been deleted, or the link is wrong. If you just saved on the hosted demo, open it from the dashboard." action={<LinkButton href="/dashboard">Back to dashboard</LinkButton>} />
         ) : (
           <ErrorState network={error instanceof ApiClientError && error.isNetwork} message={error.message} onRetry={() => mutate()} retrying={isValidating} />
         )}

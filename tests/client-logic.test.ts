@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import {
   initialSim, INTERRUPT_AT_PERCENT, isTransferActive, simReducer, TICKS_TO_COMPLETE, validateVideoFile,
   type SimEvent, type SimState,
@@ -207,5 +207,36 @@ describe('GET /api/verification', () => {
     await api.verificationGet(sam);
     await api.verificationGet(sam);
     expect(store.stats.writes).toBe(before);
+  });
+});
+
+describe('local content cache (hosted demo fallback)', () => {
+  const mem: Record<string, string> = {};
+  beforeEach(() => {
+    for (const k of Object.keys(mem)) delete mem[k];
+    Object.defineProperty(globalThis, 'sessionStorage', {
+      configurable: true,
+      value: {
+        getItem: (k: string) => mem[k] ?? null,
+        setItem: (k: string, v: string) => { mem[k] = v; },
+        removeItem: (k: string) => { delete mem[k]; },
+      },
+    });
+  });
+
+  it('rehydrates a just-saved item into an empty list page', async () => {
+    const { rememberContent, mergeLocalContentIntoPage } = await import('@/lib/local-content-cache');
+    rememberContent({
+      id: 'c_new', title: 'Brand new', description: 'x', priceCents: 999, thumbnailUrl: '/thumbs/c_new',
+      video: null, status: 'draft', scheduledFor: null, publishedAt: null, publishIntent: null,
+      lastPublishError: null, views: 0, createdAt: '', updatedAt: '', purchases: 0, revenueCents: 0,
+      waitingOn: [], blockers: [],
+    });
+    const merged = mergeLocalContentIntoPage(
+      { items: [], page: 1, pageSize: 8, total: 0, totalPages: 1 },
+      '/api/content?page=1',
+    );
+    expect(merged.items.map((c) => c.id)).toEqual(['c_new']);
+    expect(merged.total).toBe(1);
   });
 });

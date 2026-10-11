@@ -2,7 +2,8 @@
 import { Clapperboard, Clock, Eye, Pencil, Plus, SearchX, Trash2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { ApiClientError, api } from '@/lib/api-client';
-import { buildQuery, refreshAll, useContentList, useDebounced, useMe, useOverview } from '@/lib/hooks';
+import { buildQuery, rememberAndRefresh, refreshAll, useContentList, useDebounced, useMe, useOverview } from '@/lib/hooks';
+import { forgetContent } from '@/lib/local-content-cache';
 import { conversionRate, formatDate, formatDateTime, money, num } from '@/lib/format';
 import type { Blocker, ContentStatus, ContentView, VerificationStatus } from '@/lib/types';
 import { ContentStatusBadge } from '@/components/ui/badge';
@@ -72,9 +73,9 @@ export function ContentSection() {
   async function publish(item: ContentView) {
     setBusyId(item.id);
     try {
-      await api.post(`/api/content/${item.id}/publish`);
+      const res = await api.post<ContentView>(`/api/content/${item.id}/publish`);
       toast.success(`“${item.title}” is now published.`);
-      await refreshAll();
+      await rememberAndRefresh(res);
     } catch (e) {
       if (e instanceof ApiClientError && e.code === 'VERIFICATION_REQUIRED') {
         setBlocked({
@@ -97,9 +98,9 @@ export function ContentSection() {
   }
 
   async function queuePublish(item: ContentView) {
-    await api.post(`/api/content/${item.id}/publish`, { publishWhenReady: true });
+    const res = await api.post<ContentView>(`/api/content/${item.id}/publish`, { publishWhenReady: true });
     toast.success(`We'll publish “${item.title}” automatically once everything is ready.`);
-    await refreshAll();
+    await rememberAndRefresh(res);
   }
 
   async function cancelIntent(item: ContentView) {
@@ -117,6 +118,7 @@ export function ContentSection() {
 
   async function remove(item: ContentView) {
     await api.del(`/api/content/${item.id}`);
+    forgetContent(item.id);
     toast.success(`Deleted “${item.title}”.`);
     await refreshAll();
   }

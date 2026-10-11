@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { ApiClientError, api } from '@/lib/api-client';
 import { conversionRate, formatBytes, formatDate, formatDateTime, formatDuration, money, num } from '@/lib/format';
-import { buildQuery, refreshAll, useContent, useMe, usePurchases } from '@/lib/hooks';
+import { buildQuery, rememberAndRefresh, refreshAll, useContent, useMe, usePurchases } from '@/lib/hooks';
+import { forgetContent } from '@/lib/local-content-cache';
 import type { Blocker, BlockerCode, ContentView, VerificationStatus } from '@/lib/types';
 import { Badge, ContentStatusBadge, PurchaseStatusBadge } from '@/components/ui/badge';
 import { Button, LinkButton } from '@/components/ui/button';
@@ -46,7 +47,7 @@ export function ContentDetails({ id }: { id: string }) {
           <EmptyState
             icon={<Film className="size-5" aria-hidden />}
             title="Content not found"
-            body="It may have been deleted, or the link is wrong."
+            body="It may have been deleted, or the link is wrong. If you just saved on the hosted demo, go back to the dashboard — a new server instance may not have that item yet."
             action={<LinkButton href="/dashboard">Back to dashboard</LinkButton>}
           />
         </div>
@@ -63,7 +64,7 @@ export function ContentDetails({ id }: { id: string }) {
     setBusy('publish');
     try {
       const res = await api.post<ContentView>(`/api/content/${item.id}/publish`, queue ? { publishWhenReady: true } : undefined);
-      await refreshAll();
+      await rememberAndRefresh(res);
       toast.success(res.status === 'published' ? 'Published.' : res.publishIntent ? "Saved. We'll publish it automatically once it's ready." : 'Saved.');
     } catch (e) {
       if (queue) throw e; // the dialog is already open and shows the message itself
@@ -86,8 +87,8 @@ export function ContentDetails({ id }: { id: string }) {
     if (!item) return;
     setBusy('unpublish');
     try {
-      await api.post(`/api/content/${item.id}/unpublish`);
-      await refreshAll();
+      const res = await api.post<ContentView>(`/api/content/${item.id}/unpublish`);
+      await rememberAndRefresh(res);
       toast.success('Moved back to draft.');
     } catch (e) {
       toast.error(e instanceof ApiClientError ? e.message : 'Could not unpublish. Please try again.');
@@ -113,6 +114,7 @@ export function ContentDetails({ id }: { id: string }) {
   async function remove() {
     if (!item) return;
     await api.del(`/api/content/${item.id}`);
+    forgetContent(item.id);
     toast.success(`Deleted “${item.title}”.`);
     router.push('/dashboard'); // leave first: revalidating this page's own key would flash a 404 for the item just removed
     void refreshAll();

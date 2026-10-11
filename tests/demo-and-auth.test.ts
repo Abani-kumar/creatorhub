@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { api, call, demo, register, signIn, store, useFreshApp } from './helpers';
+import { T0, api, call, demo, register, signIn, store, useFreshApp } from './helpers';
+import { JsonStore, setStoreForTests } from '@/server/store';
+import { buildSeed } from '@/server/seed';
 import { GET as configGet } from '@/app/api/config/route';
 import { POST as registerPost } from '@/app/api/auth/register/route';
 
@@ -31,6 +33,27 @@ describe('demo controls are fail-closed', () => {
     expect(res.headers.get('set-cookie')).toMatch(/HttpOnly/);
     const cookie = res.headers.get('set-cookie')!.split(';')[0];
     expect((await api.me(cookie)).json.creator.name).toBe('Sam Rivera');
+  });
+
+  it('enables demo mode on Vercel unless DEMO_MODE=false', async () => {
+    const prevVercel = process.env.VERCEL;
+    const prevDemo = process.env.DEMO_MODE;
+    process.env.VERCEL = '1';
+    delete process.env.DEMO_MODE;
+    expect((await call(configGet, { path: '/api/config' })).json.demoMode).toBe(true);
+    process.env.DEMO_MODE = 'false';
+    expect((await call(configGet, { path: '/api/config' })).json.demoMode).toBe(false);
+    if (prevVercel === undefined) delete process.env.VERCEL;
+    else process.env.VERCEL = prevVercel;
+    if (prevDemo === undefined) delete process.env.DEMO_MODE;
+    else process.env.DEMO_MODE = prevDemo;
+  });
+
+  it('seeded-account cookie still works after the store is re-seeded (other serverless instance)', async () => {
+    const cookie = await signIn('maya');
+    setStoreForTests(new JsonStore(null, () => buildSeed(new Date(T0))));
+    expect((await api.me(cookie)).json.creator.name).toBe('Maya Okafor');
+    expect((await api.list(cookie)).json.total).toBe(14);
   });
 
   it('review requires a pending submission', async () => {

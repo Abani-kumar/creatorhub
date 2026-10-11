@@ -79,8 +79,8 @@ Open the app. Pick **Maya** or **Sam** on sign-in, or **register** a new creator
 
 ```bash
 npm run build      # production build
-npm start          # production start (demo OFF unless DEMO_MODE=true)
-npm test           # Vitest (124 tests)
+npm start          # production start (demo OFF unless DEMO_MODE=true; on Vercel demo is on)
+npm test           # Vitest
 npm run typecheck  # TypeScript
 npm run reset-demo # rebuild DB from seed — stop the server first
 npm run cost-model # infrastructure cost estimate (see docs/ARCHITECTURE.md Part 3)
@@ -94,10 +94,21 @@ Copy `.env.example` to `.env.local` if you want overrides. No secrets required.
 
 | Variable | Default | What it does |
 |---|---|---|
-| `DEMO_MODE` | `true` under `npm run dev`; **off** under `npm start` | Demo panel and `/api/demo`. Only the string `true` enables it. |
-| `CREATORHUB_DB_PATH` | `.data/db.json` | JSON database path. `:memory:` = no disk persistence. |
+| `DEMO_MODE` | `true` under `npm run dev`; **off** under local `npm start`; **on** on Vercel unless set to `false` | Maya/Sam shortcuts, demo panel, `/api/demo`. |
+| `CREATORHUB_DB_PATH` | `.data/db.json` locally; `/tmp/creatorhub-db.json` on Vercel | JSON database path. `:memory:` = no disk persistence. |
 
-`.env.development` applies only to `next dev`, so production cannot accidentally leave demo mode on.
+`.env.development` applies only to `next dev`, so a local `npm start` cannot accidentally leave demo mode on. A **Vercel** deploy sets `VERCEL=1`, so Maya and Sam show up without extra env (set `DEMO_MODE=false` if you ever need them off).
+
+## Deploying to Vercel
+
+This app is a **file-backed demo**. Vercel serverless has no shared disk, so:
+
+1. Redeploy after pulling these fixes (demo mode + signed session cookies).
+2. Optional: in Vercel → Settings → Environment Variables, set `DEMO_MODE` = `true` for Production (and Preview).
+3. Open the deployment URL — **Maya** and **Sam** should be on the sign-in page.
+4. Expect **ephemeral writes**: publishing or registering on the hosted demo can reset when a new serverless instance starts. Seeded Maya/Sam always come back. For a stable reviewer walkthrough, run `npm run dev` locally.
+
+Do not rely on Vercel as a production database. The JSON `Store` is the stand-in; Postgres is the real next step (see `docs/ARCHITECTURE.md`).
 
 ## Demo accounts and seed data
 
@@ -183,7 +194,7 @@ All paths use it: `POST /api/content/:id/publish`, scheduler, publish-after-appr
 npm test
 ```
 
-**124 tests** in **10 files**. In-memory store, frozen clock. Publishing gate (all paths), isolation (404 for others’ IDs), demo fail-closed, verification, GET purity (file bytes), atomic writes, upload reducer, thumbnails/save-before-publish, publish intent.
+**126 tests** in **10 files**. In-memory store, frozen clock. Publishing gate (all paths), isolation (404 for others’ IDs), demo fail-closed, verification, GET purity (file bytes), atomic writes, upload reducer, thumbnails/save-before-publish, publish intent.
 
 ### Browser (Playwright)
 

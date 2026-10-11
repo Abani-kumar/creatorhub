@@ -8,7 +8,8 @@ import { SESSION_COOKIE } from '@/lib/constants';
 import type { ApiErrorBody, Creator } from '@/lib/types';
 import { now as clockNow } from './clock';
 import { ApiError } from './errors';
-import { findSessionCreator } from './services/auth';
+import { encodeSessionToken, findSessionCreator } from './services/auth';
+import type { Session } from '@/lib/types';
 import { isDemoMode } from './services/demo';
 import { getStore, type Store } from './store';
 
@@ -75,9 +76,10 @@ export function parseCookies(header: string | null): Record<string, string> {
   return out;
 }
 
-export function sessionCookie(req: Request, sessionId: string): string {
+export function sessionCookie(req: Request, session: Session): string {
   const secure = new URL(req.url).protocol === 'https:' || req.headers.get('x-forwarded-proto') === 'https';
-  return `${SESSION_COOKIE}=${sessionId}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${7 * 24 * 3600}${secure ? '; Secure' : ''}`;
+  const token = encodeSessionToken(session);
+  return `${SESSION_COOKIE}=${token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${7 * 24 * 3600}${secure ? '; Secure' : ''}`;
 }
 
 export function clearSessionCookie(): string {

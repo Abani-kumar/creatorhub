@@ -81,6 +81,19 @@ export function SignInView() {
           <h2 className="text-2xl font-semibold">Welcome to the Creator Portal</h2>
           <p className="mt-1.5 text-sm text-ink-3">Create an account, or explore with a demo creator.</p>
 
+          {config === undefined && (
+            <div className="mt-7 space-y-3" aria-busy="true">
+              <div className="h-20 animate-pulse rounded-xl bg-surface-2" />
+              <div className="h-20 animate-pulse rounded-xl bg-surface-2" />
+            </div>
+          )}
+
+          {config && !config.demoMode && (
+            <p className="mt-6 rounded-xl border border-line bg-surface-2 px-4 py-3 text-sm text-ink-3">
+              Demo shortcuts (Maya / Sam) are off on this server. Set <code className="font-mono text-xs">DEMO_MODE=true</code> in the host env (Vercel → Settings → Environment Variables) and redeploy.
+            </p>
+          )}
+
           {config?.demoMode && (
             <div className="mt-7 space-y-3">
               <h3 className="font-sans text-sm font-semibold text-ink">Explore the demo</h3>

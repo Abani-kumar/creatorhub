@@ -5,7 +5,7 @@
  *  - Ordinary registration / verification endpoints can never approve a creator.
  */
 import type { DemoAction } from '@/lib/schemas';
-import type { Database } from '@/lib/types';
+import type { Database, Session } from '@/lib/types';
 import { ApiError } from '../errors';
 import { runDueJobs, type JobSummary } from '../domain/jobs';
 import { buildSeed, SEEDED, SEEDED_IDS } from '../seed';
@@ -13,7 +13,10 @@ import { demoReview, demoSetVerification } from './verification';
 import { createSession } from './auth';
 
 export function isDemoMode(): boolean {
-  return process.env.DEMO_MODE === 'true';
+  if (process.env.DEMO_MODE === 'true') return true;
+  if (process.env.DEMO_MODE === 'false') return false;
+  // Hosted take-home on Vercel: reviewers need Maya/Sam. Local `npm start` stays fail-closed.
+  return process.env.VERCEL === '1';
 }
 
 export interface DemoState {
@@ -36,7 +39,7 @@ export function demoState(db: Readonly<Database>, currentCreatorId: string | nul
 }
 
 export interface DemoResult {
-  newSessionId?: string;
+  newSession?: Session;
   jobs?: JobSummary;
 }
 
@@ -44,7 +47,7 @@ export function applyDemoAction(db: Database, creatorId: string | null, action: 
   if (action.action === 'switch-account') {
     const id = SEEDED[action.account];
     if (!db.creators.some((c) => c.id === id)) throw new ApiError(404, 'NOT_FOUND', 'Demo account missing. Reset the demo.');
-    return { newSessionId: createSession(db, id, now).id };
+    return { newSession: createSession(db, id, now) };
   }
 
   if (action.action === 'reset') {

@@ -94,11 +94,18 @@ export class JsonStore implements Store {
 
 const g = globalThis as unknown as { __creatorhubStore?: Store };
 
+function resolveDbFile(): string | null {
+  const configured = process.env.CREATORHUB_DB_PATH;
+  if (configured === ':memory:') return null;
+  if (configured) return path.resolve(/*turbopackIgnore: true*/ process.cwd(), configured);
+  // Vercel’s function filesystem is read-only except /tmp. Writes to `.data/` fail every request.
+  if (process.env.VERCEL === '1') return '/tmp/creatorhub-db.json';
+  return path.resolve(/*turbopackIgnore: true*/ process.cwd(), '.data/db.json');
+}
+
 export function getStore(): Store {
   if (!g.__creatorhubStore) {
-    const configured = process.env.CREATORHUB_DB_PATH ?? '.data/db.json';
-    const file = configured === ':memory:' ? null : path.resolve(/*turbopackIgnore: true*/ process.cwd(), configured);
-    g.__creatorhubStore = new JsonStore(file, () => buildSeed(now()));
+    g.__creatorhubStore = new JsonStore(resolveDbFile(), () => buildSeed(now()));
   }
   return g.__creatorhubStore;
 }

@@ -9,5 +9,5 @@ export const dynamic = 'force-dynamic';
 export const POST = open({}, async ({ req, store, now, body }) => {
   const input = await body(registerSchema);
   const { creator, session } = await store.write((db) => registerCreator(db, input, now));
-  return json({ creator: toCreatorView(creator) }, 201, { 'set-cookie': sessionCookie(req, session.id) });
+  return json({ creator: toCreatorView(creator) }, 201, { 'set-cookie': sessionCookie(req, session) });
 });

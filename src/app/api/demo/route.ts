@@ -12,7 +12,7 @@ export const GET = open({ demoOnly: true }, async ({ store, creatorId }) =>
 export const POST = open({ demoOnly: true }, async ({ req, store, now, creatorId, body }) => {
   const action = await body(demoActionSchema); // unknown actions => 400
   const result = await store.write((db) => applyDemoAction(db, creatorId, action, now));
-  const state = await store.read((db) => demoState(db, result.newSessionId ? null : creatorId));
-  const headers = result.newSessionId ? { 'set-cookie': sessionCookie(req, result.newSessionId) } : undefined;
+  const state = await store.read((db) => demoState(db, result.newSession ? result.newSession.creatorId : creatorId));
+  const headers = result.newSession ? { 'set-cookie': sessionCookie(req, result.newSession) } : undefined;
   return json({ ...state, jobs: result.jobs ?? null }, 200, headers);
 });

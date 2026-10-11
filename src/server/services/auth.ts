@@ -1,9 +1,39 @@
-import { randomBytes } from 'node:crypto';
+import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { SESSION_TTL_MS } from '@/lib/constants';
 import type { RegisterInput } from '@/lib/schemas';
 import type { Creator, Database, Session } from '@/lib/types';
 import { ApiError } from '../errors';
 import { newId } from './shared';
+
+function sessionSecret(): string {
+  return process.env.SESSION_SECRET || 'creatorhub-takehome-demo';
+}
+
+/** Cookie value: signed payload so any serverless instance can resolve Maya/Sam without shared memory. */
+export function encodeSessionToken(session: Session): string {
+  const payload = Buffer.from(JSON.stringify(session), 'utf8').toString('base64url');
+  const sig = createHmac('sha256', sessionSecret()).update(payload).digest('base64url');
+  return `${payload}.${sig}`;
+}
+
+export function decodeSessionToken(token: string | undefined): Session | null {
+  if (!token) return null;
+  const dot = token.lastIndexOf('.');
+  if (dot <= 0) return null;
+  const payload = token.slice(0, dot);
+  const sig = token.slice(dot + 1);
+  const expected = createHmac('sha256', sessionSecret()).update(payload).digest('base64url');
+  const a = Buffer.from(sig);
+  const b = Buffer.from(expected);
+  if (a.length !== b.length || !timingSafeEqual(a, b)) return null;
+  try {
+    const session = JSON.parse(Buffer.from(payload, 'base64url').toString('utf8')) as Session;
+    if (!session?.id || !session.creatorId || !session.createdAt) return null;
+    return session;
+  } catch {
+    return null;
+  }
+}
 
 /**
  * DEMO AUTHENTICATION. Name + email creates a creator and a server-side session (HttpOnly cookie).
@@ -32,9 +62,10 @@ export function registerCreator(db: Database, input: RegisterInput, now: Date): 
   return { creator, session: createSession(db, creator.id, now) };
 }
 
-export function findSessionCreator(db: Readonly<Database>, sessionId: string | undefined, now: Date): { session: Session; creator: Creator } | null {
-  if (!sessionId) return null;
-  const session = db.sessions.find((s) => s.id === sessionId);
+export function findSessionCreator(db: Readonly<Database>, cookieValue: string | undefined, now: Date): { session: Session; creator: Creator } | null {
+  if (!cookieValue) return null;
+  const signed = decodeSessionToken(cookieValue);
+  const session = signed ?? db.sessions.find((s) => s.id === cookieValue) ?? null;
   if (!session || now.getTime() - Date.parse(session.createdAt) > SESSION_TTL_MS) return null;
   const creator = db.creators.find((c) => c.id === session.creatorId);
   return creator ? { session, creator } : null;
